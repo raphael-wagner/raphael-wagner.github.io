@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academia | Raphael Wagner</title>
+    <link>https://raphael-wagner.github.io/academia/</link>
+      <atom:link href="https://raphael-wagner.github.io/academia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academia</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://raphael-wagner.github.io/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
+      <title>Academia</title>
+      <link>https://raphael-wagner.github.io/academia/</link>
+    </image>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://raphael-wagner.github.io/academia/teaching/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/academia/teaching/</guid>
+      <description>&lt;p&gt;Since my third semester as a student at Ulm University, I was tutoring and grading undergraduate students in math and computer science programmes. The classes mostly involved the fundamentals of mathematics such as analysis and linear algebra.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp 400w,
+               /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_17f35835c1105d1791f471f171bf1d87.webp 760w,
+               /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;379&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;My stay at Syrcause University was partially funded by a teaching assistantship, where I was giving three to four recitations each week for Calculus classes and helped students at the weekly Calculus help desk.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01_hu4b236bb8c932d5ca11d05ac2e8d759d5_366692_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse01.jpg&#34; width=&#34;563&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02_hu7cc9c0e071d596f68c86c305ffea5521_225370_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse02.jpg&#34; width=&#34;750&#34; height=&#34;563&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;p&gt;In my position as a doctoral candidate and scientific assistant at Ulm University, my duties involve creating weakly assignment sheets, administer the grading thereof and presenting the solutions in an auditorium.&lt;/p&gt;
+&lt;p&gt;The corresponding classes were mostly on the fundamentals of mathematics. Some more advanced courses for which I organized the exercise include the subjects of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/ws20-1/hyperbolic-conservation-laws/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hyperbolic conservation laws&lt;/a&gt; (taught by Prof. Dr. Emil Wiedemann)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/lehre/ss-23/elements-of-calculus-of-variations/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elements of the calculus of variations&lt;/a&gt; (taught by Dr. Nicola Zamponi)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/lehre/ws-23-24/functional-analysis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Functional analysis (for data science)&lt;/a&gt; (taught by Prof. Dr. Anna Dall’Acqua)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a complete overview of the classes I taught in the past years, see &lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/members/raphael-wagner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my university profile&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During the COVID-19 pandemic, I recorded my exercise sessions. If you would like to get a first impression of me teaching in the classroom, have a look at an excerpt of one the sessions I recorded back then (Analysis 1, winter semester 2020/2021, in German).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Problem: Zeigen Sie die folgende Aussagen mittels vollständiger Induktion.
+Für jede natürliche Zahl $n\in\mathbb{N}$ ergibt die Summe der Quadrate der ersten $n$ natürlichen Zahlen $\frac{1}{6}n(n+1)(2n+1)$.&lt;/em&gt;&lt;/p&gt;
+&lt;video src=&#34;exercise_excerpt.mp4&#34; controls=&#34;controls&#34; style=&#34;max-width: 730px;&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://raphael-wagner.github.io/academia/research/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/academia/research/</guid>
+      <description>&lt;p&gt;In my research, I study statistical notions of solutions for certain equations in mathematical fluids mechanics. While the development of this theory tends to be quite abstract, some motivation comes from studying and experimenting with turbulent flows. Indeed, it is a longstanding and widely accepted view in turbulence theory that turbulent flows are more accurately described by probabilistic and statistical models than by purely deterministic considerations. Indeed, one of the fundamental aspects of a turbulence flow is the difficulty in the precise prediction of its behavior.&lt;br&gt;
+Therefore, in the applied sciences, models of turbulent flows typically have a stochastic component and consider averages of the quantities in the governing mathematical equations.&lt;br&gt;
+Below you can see two signals using the same parameters, produced by a Matlab implementation by E. Cheynet&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Von_K%C3%A1rm%C3%A1n_wind_turbulence_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;von Kármán wind turbulence model&lt;/a&gt;, which is based on the Reynolds-averaged Navier-Stokes (RANS) equations. This model has proven to provide a fairly accurate basis for the description of wind turbulence.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34;
+           src=&#34;https://raphael-wagner.github.io/academia/research/signal_combined_01.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34;
+           src=&#34;https://raphael-wagner.github.io/academia/research/signal_combined_02.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;If we consider the final histograms below, we note that both look somewhat similar. Of course, our sample is very small and we only repeated the simulation twice. More importantly, the model and its simulation already includes some randomness, whereby this result is not very surprising. However, this behavior is also observed in real measurement data from wind tunnels, see for instance U. Frisch&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_7177292ce088e68849c5414062dd34ee.webp 400w,
+               /academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_e4e8e36b8b88fa6f9660978afcebac4c.webp 760w,
+               /academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_7177292ce088e68849c5414062dd34ee.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;329&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Alternative and probabilistic approaches to the models and equations from fluid mechanics also stem from the fact that existence of a unique, physically relevant solution for these equations is often unknown. In fact, one the 1 Mio. $ prize &lt;a href=&#34;https://www.claymath.org/millennium-problems/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Millenium prize problems&lt;/a&gt; focuses around this issue.&lt;/p&gt;
+&lt;p&gt;In the following section, I will describe a little bit more in depth what my research area is about and what problems I considered in my articles and preprints.&lt;/p&gt;
+&lt;p&gt;In my research, I primarily consider the incompressible Euler
+$$
+\begin{equation}
+\begin{split}
+\partial_t u + (u\cdot\nabla)u + \nabla p + \gamma u &amp;amp;=  f,\
+\operatorname{div} u &amp;amp;= 0,
+\end{split}
+\end{equation}
+$$
+and Navier-Stokes equations
+$$
+\begin{equation}
+\begin{split}
+\partial_t u + (u\cdot\nabla)u + \nabla p + \gamma u - \nu\Delta u &amp;amp;=  f,\
+\operatorname{div} u &amp;amp;= 0,
+\end{split}
+\end{equation}
+$$
+formulated here in velocity $u \colon (0,T) \times \Omega \to \mathbb{R}^d$ with pressure $p\colon (0,T) \times \Omega \to \mathbb{R}$, an external force $f\colon (0,T) \times \Omega \to \mathbb{R}^d$ and kinematic viscosity $\nu &amp;gt; 0$ on a domain $\Omega \subset \mathbb{R}^d$ until some time $T &amp;gt; 0$.
+Both equations are fundamental equations in fluid mechanics, yet mathematically, many standard questions in the theory of partial differential equations such as &lt;em&gt;existence&lt;/em&gt;, &lt;em&gt;uniqueness&lt;/em&gt;, and &lt;em&gt;regularity&lt;/em&gt; are still open. Let me first explain what these properties mean and then point out a small selection of the currently open issues related to these.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Existence: For any initial state of the fluid and other fixed parameters such as boundary data, we would like there to exist a solution to these fluid equations which describes the fluid at any later time. After all, we describe a physical problem and would expect solutions to exist.&lt;br&gt;
+Existence of (weak) solutions for the 3D Navier-Stokes equations has been known since the work of Leray in 1934. For the 2D Euler equations, many general existence results for weak solutions have been obtained in the past 15 years using the &lt;a href=&#34;https://annals.math.princeton.edu/2009/170-3/p09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;convex integration&lt;/a&gt; machinery by Camillo De Lellis and László Székelyhidi Jr.&lt;/li&gt;
+&lt;li&gt;Uniqueness: Ideally, the solutions to these equations should also be unique. After all, if all the data is fixed, our intuition would expect that the behavior of the fluid is deterministic, rather than having to deal with the possibility of the fluid behaving (at random) in different ways.&lt;br&gt;
+Just in the past year, however, &lt;a href=&#34;https://projecteuclid.org/journals/annals-of-mathematics/volume-196/issue-1/Non-uniqueness-of-Leray-solutions-of-the-forced-Navier-Stokes/10.4007/annals.2022.196.1.3.full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albritton, Brué and Colombo&lt;/a&gt; proved that for a certain external force $f$, the Leray-solutions are in fact non-unique. Moreover, the convex integration solutions for the 2D Euler equations are vastly non-unique, in fact, this technique yields infinitely many solutions for any given initial state. To resolve this issue, it is an ongoing task to find further conditions, which single out &lt;em&gt;physical&lt;/em&gt; solutions.&lt;/li&gt;
+&lt;li&gt;Regularity means that in a certain way, if the data has nice properties, which correspond to real physical fluids, then the solutions at least maintain that regularity.&lt;br&gt;
+In constrast to the previously mentioned weak solution, regular solutions are unique. However, it is generally unknown if regular initial data yields regular solutions globally in time for the 3D Navier-Stokes equations. If this was false, it would mean that a nice initial state of the fluid could in time develop singularities, meaning that the fluid has infinite velocity at certain points in space in time. While physically, this is impossible, precise mathematical analysis of the Navier-Stokes equations has still not ruled this out. This is in fact one the &lt;a href=&#34;https://www.claymath.org/millennium-problems/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Millenium prize problems&lt;/a&gt; by the Clay Mathematics Institute, deemed to be one of the most important open mathematical problems, with a $1 Million prize. The problem is likewise open for the 3D Euler equations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Euler equations or Navier-Stokes equations with very small viscosity $\nu &amp;gt; 0$ (or high Reynolds number) are generally associated to turbulent fluid flows. One aspect of turbulent fluids is their unpredictable behavior, note that this directly implies that unique deterministic solutions should not be expected. However, experimentally, it is widely accepted that certain statistical properties of turbulent fluids are in fact reproducible, whereby a probabilistic or statistical solution concept may be most natural. One approach would be to assume that the system is in fact described by a deterministic component plus some noise, which leads to a model based on stochastic differential equations.&lt;br&gt;
+Somewhat differently, rather than trying to describe single, individual solutions, another approach is to describe a whole ensemble of solutions or possible states of the system by a probability distribution on an appropriate phase space. Then, one studies the evolution in time of these distributions. This latter approach can somewhat loosely be found in work by Hopf in 1950 and in a precise framework from &lt;a href=&#34;http://www.numdam.org/item/RSMUP_1972__48__219_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1972&lt;/a&gt; and &lt;a href=&#34;http://www.numdam.org/item/RSMUP_1973__49__9_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1973&lt;/a&gt; by Foias and in &lt;a href=&#34;https://link.springer.com/article/10.1007/BF00973601&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1978&lt;/a&gt; by Vishik and Fursikov for the 3D Navier-Stokes equations.&lt;br&gt;
+Based on further study of these statistical solutions of the Navier-Stokes equations, the main subject of my doctoral studies involved the development of analogous notions of statistical solutions for the 2D Euler equations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0022123622003974?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wagner, R.,Wiedemann, E.: Statistical solutions of the two-dimensional incompressible
+Euler equations in spaces of unbounded vorticity. J. Funct. Anal. 284(4), 109777 (2023)&lt;/a&gt;&lt;br&gt;
+My first published article, written together with my advisor Prof. Dr. Emil Wiedemann, shows existence of statistical solutions of the 2D Euler equations under certain assumptions on the (initial) vorticity for various notions of statistical solutions.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s00021-023-00800-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gallenmüller, D., Wagner, R. &amp;amp; Wiedemann, E. Probabilistic Descriptions of Fluid
+Flow: A Survey. J. Math. Fluid Mech. 25, 52 (2023)&lt;/a&gt;&lt;br&gt;
+My second published article, written with my advisor Prof. Dr. Emil Wiedemann and former post-doctoral researcher Dennis Gallenmüller at the Institute of Applied Analysis, discusses connections between different notions of statistical solutions, some of their relations to other concepts such as so-called measure-valued solutions, presents general strategies to show their existence and briefly discussed some open problems.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2306.05081&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R. Wagner, Vanishing of long time average p-enstrophy dissipation rate in the inviscid
+limit of the 2D damped Navier-Stokes equations, arXiv preprint, 2023&lt;/a&gt;&lt;br&gt;
+My final article, which is currently under review, generalizes and simplifies an earlier result from 2007 by Constantin and Ramos for the vanishing of long-time averages of enstrophy dissipation rate in the vanishing viscosity limit. Enstrophy is the integral of the square of the vorticity in space, thereby representing in a certain sense globally how rotational a fluid is. Note that above, the Euler and Navier-Stokes equations only differ by the viscous term $\nu\Delta u$. Viscosity generally leads to dissipation of enstrophy in time. However, what happens when one considers smaller and smaller viscosity $\nu \to 0$ ? Does the enstrophy dissipation rate also vanish? This is an important question in the Batchelor-Kraichnan theory for 2D turbulence. If there remains some kind of dissipation in the system, this is usually refereed to as anomalous (enstrophy)-dissipation.&lt;br&gt;
+Likewise to Constantin and Ramos, my article first considers long-time averages of the system to obtain a sort of stationary state and then considers the vanishing viscosity scenario, where indeed the viscous enstrophy dissipation rate vanishes as $\nu \to 0$. The preprint utilizes some nice ideas from ergodic and dynamical system theory as well as some recent results on the vanishing viscosity limit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Cheynet, E. Wind Field Simulation (the Fast Version). Zenodo, 2020, doi:10.5281/ZENODO.3774136&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Frisch, U. Turbulence: The Legacy of A. N. Kolmogorov. Cambridge: Cambridge University Press; 1995. doi:10.1017/CBO9781139170666&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

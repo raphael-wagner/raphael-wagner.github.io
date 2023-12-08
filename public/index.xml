@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raphael Wagner</title>
+    <link>https://raphael-wagner.github.io/</link>
+      <atom:link href="https://raphael-wagner.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Raphael Wagner</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://raphael-wagner.github.io/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
+      <title>Raphael Wagner</title>
+      <link>https://raphael-wagner.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://raphael-wagner.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://raphael-wagner.github.io/academia/teaching/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/academia/teaching/</guid>
+      <description>&lt;p&gt;Since my third semester as a student at Ulm University, I was tutoring and grading undergraduate students in math and computer science programmes. The classes mostly involved the fundamentals of mathematics such as analysis and linear algebra.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp 400w,
+               /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_17f35835c1105d1791f471f171bf1d87.webp 760w,
+               /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;379&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;My stay at Syrcause University was partially funded by a teaching assistantship, where I was giving three to four recitations each week for Calculus classes and helped students at the weekly Calculus help desk.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01_hu4b236bb8c932d5ca11d05ac2e8d759d5_366692_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse01.jpg&#34; width=&#34;563&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02_hu7cc9c0e071d596f68c86c305ffea5521_225370_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse02.jpg&#34; width=&#34;750&#34; height=&#34;563&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;p&gt;In my position as a doctoral candidate and scientific assistant at Ulm University, my duties involve creating weakly assignment sheets, administer the grading thereof and presenting the solutions in an auditorium.&lt;/p&gt;
+&lt;p&gt;The corresponding classes were mostly on the fundamentals of mathematics. Some more advanced courses for which I organized the exercise include the subjects of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/ws20-1/hyperbolic-conservation-laws/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hyperbolic conservation laws&lt;/a&gt; (taught by Prof. Dr. Emil Wiedemann)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/lehre/ss-23/elements-of-calculus-of-variations/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elements of the calculus of variations&lt;/a&gt; (taught by Dr. Nicola Zamponi)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/lehre/ws-23-24/functional-analysis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Functional analysis (for data science)&lt;/a&gt; (taught by Prof. Dr. Anna Dall’Acqua)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a complete overview of the classes I taught in the past years, see &lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/members/raphael-wagner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my university profile&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During the COVID-19 pandemic, I recorded my exercise sessions. If you would like to get a first impression of me teaching in the classroom, have a look at an excerpt of one the sessions I recorded back then (Analysis 1, winter semester 2020/2021, in German).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Problem: Zeigen Sie die folgende Aussagen mittels vollständiger Induktion.
+Für jede natürliche Zahl $n\in\mathbb{N}$ ergibt die Summe der Quadrate der ersten $n$ natürlichen Zahlen $\frac{1}{6}n(n+1)(2n+1)$.&lt;/em&gt;&lt;/p&gt;
+&lt;video src=&#34;exercise_excerpt.mp4&#34; controls=&#34;controls&#34; style=&#34;max-width: 730px;&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://raphael-wagner.github.io/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://raphael-wagner.github.io/post/2020-12-01-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://raphael-wagner.github.io/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://raphael-wagner.github.io/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://raphael-wagner.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>https://raphael-wagner.github.io/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://raphael-wagner.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics of machine learning</title>
+      <link>https://raphael-wagner.github.io/other/ml/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/other/ml/</guid>
+      <description>&lt;p&gt;I first came across the subject of machine learning in a graduate level course on pattern recognition as part of my minor in computer science.
+The area focuses on the development of processes and algorithms which enable computers to learn a task from experience measured by some performance measure. In particular, the way a task will be performed by a trained machine learning algorithm is not hard coded. In fact, for complex models such as deep neural networks, it appears to be difficult to extract rules by which the model has learned and by which it operates.&lt;/p&gt;
+&lt;p&gt;By now, most academics I believe have heard or come across this subject of machine learning due to the broad spectrum of tasks for which there are machine learning methods available (supervised problems: classification, regression,&amp;hellip; and unsupervised problems: clustering and anomaly detection) and its vast success in different areas, e.g., detecting credit card fraud in bank statements or brain tumors in scans.
+Even in the numerical analysis of partial differential equations, machine learning algorithms are establishing themselves. In particular, in the earth sciences, where also a lot of data is collected, the simulation of models nowadays, by my understanding, is not only based on the numerical computation of the involved equations from physics, but is usually combined with data driven approaches. I was lucky to be able to attend talks at the mathematical colloquium at Ulm University given by &lt;a href=&#34;https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Jakob_Runge.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Dr. Jakob Runge&lt;/a&gt; and &lt;a href=&#34;https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Kutyniok.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Dr. Gitta Kutyniok&lt;/a&gt; who are experts in the area.&lt;/p&gt;
+&lt;p&gt;Nowadays, there is a ton of books and other resources available to teach machine learning methods to everyone with a very basic understanding of statistics and basic programming skills. Recently, I have been going through &lt;a href=&#34;https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow&lt;/a&gt; by Aurélien Géron, which I found to be very accessible.&lt;/p&gt;
+&lt;p&gt;But even casting aside all the applications, many methods have a rather deep underlying mathematical foundation. The example that I recently came across is that of reproducing kernel Hilbert spaces (RKHS), which I though I could shed some light on here. The nice part is that the theory of reproducing kernel Hilbert spaces not only explains why methods such as ridge regression work and are reasonable, the theory also explains why the user does not need to understand it, as it works in the background.&lt;/p&gt;
+&lt;p&gt;Reproducing kernel Hilbert spaces play a role for regression and classification problems.
+Suppose we are given data which lies in some set $X$. Here, $X$ could be a set of text files, numerical data, images, etc. or combinations thereof. We suppose that each element in $X$ has a &lt;em&gt;true&lt;/em&gt; class (classification), for instance when $X$ is the set of all dog or cat pictures and we have two classes, cat or dog, or a &lt;em&gt;true&lt;/em&gt; or &lt;em&gt;accurate&lt;/em&gt; value, such housing prize, where $X$ could be the set of data of housing data in an area.
+Let us go with the latter example. Suppose that we have data $x_1, &amp;hellip; , x_n \in X$ for $n \in \mathbb{N}$ properties and we know the associated housing prizes $y_1,&amp;hellip;,y_n \in \mathbb{R}$ for which property (for instance estimated by experts). Then $(x_1,y_1),&amp;hellip;,(x_n,y_n)$ is our training data.&lt;/p&gt;
+&lt;p&gt;We now wish to be able to be able to predict an accurate housing price for any given housing data $x \in X$. We express this by a function $f\colon X \to \mathbb{R}$. We would hope that by choosing $f$ in a way that it is accurate on the training set, it will also accurate on new data.
+We measure accuracy by choosing a performance measure $V\colon X \times \mathbb{R} \to [0,\infty)$, where $V(f(x_i),y_i)$ should be small if $f(x_i) \sim y_i$ and large if $f(x_i)$ and $y_i$ deviate largely. A standard example for a performance measure is the square distance
+$$ V(f(x_i),y_i) = |f(x_i) - y_i|^2.$$
+Taking the mean over the training set, we obtain a loss-function for our regression function $f\colon X \to \mathbb{R}$.
+$$ L(f) = \frac{1}{n}\sum_{i=1}^n V(f(x_i),y_i). $$
+There are many valid choices for performance measures and loss functions. The main property that they usually all have in common is (strict) convexity, which (under further assumptions) leads mathematically to the existence of a unique minimum of the function and at least in theory, to convergence of approximative schemes to this minimum.&lt;/p&gt;
+&lt;p&gt;Usually, one has an a priori idea on how simple or complex the relationship between the data $x \in X$ and the labels $y \in \mathbb{R}$ is and makes and a piori choice for one or several general models, e.g., linear or polynomials models. Therefore, instead of considering all functions $f\colon X \to \mathbb{R}$ as possible regression functions, we restrict ourselves to a subset of functions $H \subset \lbrace f\colon X \to \mathbb{R} \rbrace.$
+The regression problem now lies in finding
+$$ f^* := \underset{f \in H}{\operatorname{argmin}} L(f). $$&lt;/p&gt;
+&lt;p&gt;Minimization problems tend to be very convenient to handle in the setting of Hilbert spaces. Why? Hilbert spaces are certain vector spaces with an inner product. Such an inner product $\langle\cdot,\cdot\rangle_H$ gives us a notion of orthogonality, which is closely connected to problem of minimizing distances.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-least-distance-between-x-and-the-line-segment-l-is-given-by-the-length-of-the-line-segment-through-x-and-l-which-is-perpendicular-to-l&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp 400w,
+               /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_dd1c8d2ca012c7e3e2ae0e0cd4b1a8aa.webp 760w,
+               /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp&#34;
+               width=&#34;487&#34;
+               height=&#34;347&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The least distance between $x$ and the line segment $L$ is given by the length of the line segment through $x$ and $L$ which is perpendicular to $L$.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Therefore, we would like to have the Hilbert space structure for our set of functions $H$. This point of view is rather abstract as we view the functions in $H$ similar to points for instance in the plane $\mathbb{R}^2$, where we have a &lt;em&gt;natural&lt;/em&gt; notion of orthogonality. But this approach is at the core of &lt;a href=&#34;https://en.wikipedia.org/wiki/Functional_analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;functional analysis&lt;/a&gt; and during the past century has become one of the most powerful theory in mathematical analysis.&lt;/p&gt;
+&lt;p&gt;However, how can we achieve a meaningful notions of orthogonality between functions in $H$? This is usually not obvious at all. However, the theory of RKHS actually simplifies this question a ton by means of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space#Moore%E2%80%93Aronszajn_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Moore-Aronszajn theorem&lt;/a&gt;:
+Suppose we have a kernel $K\colon X \times X \to \mathbb{R}$ which is&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;symmetric: K(x,y) = K(y,x) for all $x,y \in X$&lt;/li&gt;
+&lt;li&gt;positive definite: for all $x_1,&amp;hellip;x_k \in X$, $\lambda_1,&amp;hellip;,\lambda_n \in \mathbb{R}$
+$$ \sum_{i,j=1}^k \lambda_i\lambda_j K(x_i,x_j) \geq 0.$$
+Then there exists a unique Hilbert space $H \subset \lbrace f \colon X \to \mathbb{R}\rbrace$, the &lt;em&gt;reproducing kernel Hilbert space&lt;/em&gt; whose reproducing kernel is $K$, meaning that for every $f \in H$,
+$$ f(x) = \langle K(x,\cdot), f \rangle_H.$$
+Hence, one can choose a kernel with this property and (in the background) automatically obtain a RKHS. Although it should be mentioned that the choice of an appropriate kernel may still be a delicate issue. In general, the symmetry and positive definiteness of a kernel are properties it has in common with an inner product $ \langle \cdot, \cdot \rangle$ and there, $\langle x,y \rangle$
+is the orthogonal projection of $x$ onto the line spanned by $y$ (if $y$ is of unit length), meaning it represents the part that $x$ and $y$ have in common. In other words, $\langle x,y \rangle$ is a similarity measure between $x$ and $y$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Common examples, if $X = \mathbb{R}^n$, are for instance&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the Gaussian kernel $K(x,y) = \exp\left( \frac{|x-y|^2}{\sigma^2} \right)$ for some $\sigma^2 &amp;gt; 0$,&lt;/li&gt;
+&lt;li&gt;or polynomial kernels $K(x,y) = (x \cdot y + 1)^d$ for some $d \in \mathbb{N}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If $X$ does not consist of numerical data in $\mathbb{R}^n$ one can first transform $X$ by use of feature maps $\varphi\colon X \to Y$. If $Y$ is a Hilbert space with inner product $\langle \cdot, \cdot \rangle$, then a kernel is given by
+$$K(x,y) = \langle \varphi(x),\varphi(y) \rangle_Y.$$
+This method of constructing kernels by feature maps can also be used to embed non-linear regression in a lower dimensional space to linear regression in a higher dimensional space. Let us briefly review here the perhaps most prominent example may be regression by quadratic polynomials: Suppose our data is simply one-dimensional $X \subset \mathbb{R}$ and we search for a quadratic regression function
+$$f \colon X \to \mathbb{R}, x \mapsto a x^2 + bx. $$
+Using the feature map $\varphi \colon \mathbb{R} \to \mathbb{R}^2, x \mapsto (x,x^2)$, we hide the non-linear problem in the kernel given by the inner product on $\mathbb{R}^2$ and the feature map $\varphi$, i.e.,
+$$K(x,y) = \langle (x,x^2),(y,y^2)\rangle = xy + x^2y^2.$$
+This is an example of what is usually referred to as &lt;em&gt;kernel trick&lt;/em&gt;. This works as one can show that the functions in the associated RKHS do indeed correspond to quadratic functions on $\mathbb{R}$.&lt;/p&gt;
+&lt;p&gt;Below, you can see an example of a set of 1-dimensional data $X = G \cup B$ with two different classes
+$$G = \lbrace -1, -2 \rbrace \text{ and } B = \lbrace -3, 1, 2\rbrace,$$
+which is not linearly but quadratically separable in the sense that for $y = f(x) = x^2+2.5x$, we have $G = \lbrace x \in X : f(x) &amp;lt; 0\rbrace$ and $B = \lbrace x \in X : f(x) \geq 0\rbrace$.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-classification-of-1d-values-into-the-two-classes-green-and-blue&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp 400w,
+               /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_bdf7edae1f7a55bc03b0a131a225f0be.webp 760w,
+               /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp&#34;
+               width=&#34;545&#34;
+               height=&#34;201&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Classification of 1D values into the two classes &lt;em&gt;green&lt;/em&gt; and &lt;em&gt;blue&lt;/em&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The feature map transforms the data into points in the plane $\mathbb{R}^2$.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-transformed-data-by-the-feature-map-varphi&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp 400w,
+               /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_78e6e402960b24510fa30fcce68c584a.webp 760w,
+               /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp&#34;
+               width=&#34;565&#34;
+               height=&#34;469&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Transformed data by the feature map $\varphi$.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;There, the data is linearly separable, i.e., if we let
+$$\tilde{G} = \lbrace (-1,1), (-2,4) \rbrace \text{ and } \tilde{B} = \lbrace (-3,9), (1,1), (2,4)\rbrace,$$
+and $\tilde{f}(x,y) = y+2.5x$, then $\tilde{G} = \lbrace (x,y) = \varphi(x) : x \in X \text{ and } \tilde{f}(x,y) &amp;lt; 0\rbrace$, while $\tilde{B} = \lbrace (x,y) = \varphi(x) : x \in X \text{ and } \tilde{f}(x,y) \geq 0\rbrace$.
+Moreover, let us note that we can actually represent $f$ as a linear combination of the kernel functions $K(-3,\cdot), K(-2,\cdot), K(-1,\cdot), K(1,\cdot), K(2,\cdot)$ evaluated at the data in $X$. Indeed,
+$$f(x) = \frac{7}{4} K(1,x) - \frac{3}{4}K(-1,x).$$
+This is not a mere coincident and we will come back to later.&lt;/p&gt;
+&lt;p&gt;Finally, I would like to stress again that the Moore-Aronszajn theorem is by no means trivial and understanding its proof does indeed require solid foundation in functional analysis.&lt;/p&gt;
+&lt;p&gt;Let us also point here towards the big issue of overfitting the data, which may happen if we search for a model with more complexity than the actual data, which may make the model overly sensitive to noise.
+In our setting of RKHS, this may prevented by Tikhonov regularization, meaning we add to our loss function a regularization term so that
+$$ L(f) = \frac{1}{n}\sum_{i=1}^n V(f(x_i),y_i) + c |f|_H,$$
+where $c &amp;gt; 0$ is a regularization parameter and $|f|_H = \sqrt{\langle f,f\rangle_H}$ is the norm of $f$ given by the inner product on $H$. This is indeed a regularization because any $f \in H$ is Lipschitz continuous with Lipschitz constant $|f|_H$:
+\begin{align*}
+|f(x) - f(y)| &amp;amp;= |\langle f,K(x,\cdot)-K(y,\cdot)\rangle|\newline
+&amp;amp;\leq |f|_K|K(x-y,\cdot)|_K = |f|_K d(x,y),
+\end{align*}
+where $d(x,y) := |K(x-y,\cdot)|_H$ can in fact be thought of as distance on $X$ between $x$ and $y$. This Lipschitz continuity means that the slope of $f$ is bounded by $|f|_H$. Therefore, by adding this quantity into our loss functional that we are trying to minimize, we are preventing overfitting behaviour.&lt;/p&gt;
+&lt;p&gt;Now, in general, it can be hard or almost impossible to determine the RKHS associated to a kernel $K$. Therefore, even if the setting of RKHS allows us to theoretically derive the existence of an optimal solution $f^* \in H$ to the regression problem, what good is it in practice if we have no idea what $f^*$ or even $H$ looks like?
+Again, the abstract theory of RKHS helps us out by means of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Representer_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;representer theorem&lt;/a&gt;, which states that:&lt;/p&gt;
+&lt;p&gt;In the situation above, the optimal solution is given by
+$$ f^*(x) = \sum_{i=1}^n \lambda_i K(x_i,x) $$
+for some coefficients $\lambda_1,&amp;hellip;,\lambda_n \in \mathbb{R}^n$.&lt;/p&gt;
+&lt;p&gt;Hence, we only need to search for the minimum in the class of linear combinations of the functions $x \mapsto K(x_1,x),&amp;hellip;,K(x_n,x)$ which essentially boils down to linear regression in $\mathbb{R}^n$.&lt;/p&gt;
+&lt;p&gt;The diagram below commutes so to speak, meaning that instead of going the way around the abstract theory to arrive at a minimizer for our loss function, it actually suffices to perform linear regression in $\mathbb{R}^n$ to obtain optimal coefficients $\lambda_1, &amp;hellip; ,\lambda_n \in \mathbb{R}$ for the function $f^*(x) = \sum_{i=1}^n \lambda_i K(x_i,x)$.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-searching-for-optimal-regression-functions-by-means-of-rkhs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_ec6d0dec75b6ec109507b5a8307dbaea.webp 400w,
+               /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_b2252562843d88c07ec7b249ebf3f722.webp 760w,
+               /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_ec6d0dec75b6ec109507b5a8307dbaea.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;292&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Searching for optimal regression functions by means of RKHS
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://raphael-wagner.github.io/academia/research/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/academia/research/</guid>
+      <description>&lt;p&gt;In my research, I study statistical notions of solutions for certain equations in mathematical fluids mechanics. While the development of this theory tends to be quite abstract, some motivation comes from studying and experimenting with turbulent flows. Indeed, it is a longstanding and widely accepted view in turbulence theory that turbulent flows are more accurately described by probabilistic and statistical models than by purely deterministic considerations. Indeed, one of the fundamental aspects of a turbulence flow is the difficulty in the precise prediction of its behavior.&lt;br&gt;
+Therefore, in the applied sciences, models of turbulent flows typically have a stochastic component and consider averages of the quantities in the governing mathematical equations.&lt;br&gt;
+Below you can see two signals using the same parameters, produced by a Matlab implementation by E. Cheynet&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Von_K%C3%A1rm%C3%A1n_wind_turbulence_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;von Kármán wind turbulence model&lt;/a&gt;, which is based on the Reynolds-averaged Navier-Stokes (RANS) equations. This model has proven to provide a fairly accurate basis for the description of wind turbulence.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34;
+           src=&#34;https://raphael-wagner.github.io/academia/research/signal_combined_01.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34;
+           src=&#34;https://raphael-wagner.github.io/academia/research/signal_combined_02.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;If we consider the final histograms below, we note that both look somewhat similar. Of course, our sample is very small and we only repeated the simulation twice. More importantly, the model and its simulation already includes some randomness, whereby this result is not very surprising. However, this behavior is also observed in real measurement data from wind tunnels, see for instance U. Frisch&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_7177292ce088e68849c5414062dd34ee.webp 400w,
+               /academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_e4e8e36b8b88fa6f9660978afcebac4c.webp 760w,
+               /academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/academia/research/histograms_hud68d7bf67082ec4f60eb1797e7371f18_77746_7177292ce088e68849c5414062dd34ee.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;329&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Alternative and probabilistic approaches to the models and equations from fluid mechanics also stem from the fact that existence of a unique, physically relevant solution for these equations is often unknown. In fact, one the 1 Mio. $ prize &lt;a href=&#34;https://www.claymath.org/millennium-problems/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Millenium prize problems&lt;/a&gt; focuses around this issue.&lt;/p&gt;
+&lt;p&gt;In the following section, I will describe a little bit more in depth what my research area is about and what problems I considered in my articles and preprints.&lt;/p&gt;
+&lt;p&gt;In my research, I primarily consider the incompressible Euler
+$$
+\begin{equation}
+\begin{split}
+\partial_t u + (u\cdot\nabla)u + \nabla p + \gamma u &amp;amp;=  f,\
+\operatorname{div} u &amp;amp;= 0,
+\end{split}
+\end{equation}
+$$
+and Navier-Stokes equations
+$$
+\begin{equation}
+\begin{split}
+\partial_t u + (u\cdot\nabla)u + \nabla p + \gamma u - \nu\Delta u &amp;amp;=  f,\
+\operatorname{div} u &amp;amp;= 0,
+\end{split}
+\end{equation}
+$$
+formulated here in velocity $u \colon (0,T) \times \Omega \to \mathbb{R}^d$ with pressure $p\colon (0,T) \times \Omega \to \mathbb{R}$, an external force $f\colon (0,T) \times \Omega \to \mathbb{R}^d$ and kinematic viscosity $\nu &amp;gt; 0$ on a domain $\Omega \subset \mathbb{R}^d$ until some time $T &amp;gt; 0$.
+Both equations are fundamental equations in fluid mechanics, yet mathematically, many standard questions in the theory of partial differential equations such as &lt;em&gt;existence&lt;/em&gt;, &lt;em&gt;uniqueness&lt;/em&gt;, and &lt;em&gt;regularity&lt;/em&gt; are still open. Let me first explain what these properties mean and then point out a small selection of the currently open issues related to these.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Existence: For any initial state of the fluid and other fixed parameters such as boundary data, we would like there to exist a solution to these fluid equations which describes the fluid at any later time. After all, we describe a physical problem and would expect solutions to exist.&lt;br&gt;
+Existence of (weak) solutions for the 3D Navier-Stokes equations has been known since the work of Leray in 1934. For the 2D Euler equations, many general existence results for weak solutions have been obtained in the past 15 years using the &lt;a href=&#34;https://annals.math.princeton.edu/2009/170-3/p09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;convex integration&lt;/a&gt; machinery by Camillo De Lellis and László Székelyhidi Jr.&lt;/li&gt;
+&lt;li&gt;Uniqueness: Ideally, the solutions to these equations should also be unique. After all, if all the data is fixed, our intuition would expect that the behavior of the fluid is deterministic, rather than having to deal with the possibility of the fluid behaving (at random) in different ways.&lt;br&gt;
+Just in the past year, however, &lt;a href=&#34;https://projecteuclid.org/journals/annals-of-mathematics/volume-196/issue-1/Non-uniqueness-of-Leray-solutions-of-the-forced-Navier-Stokes/10.4007/annals.2022.196.1.3.full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albritton, Brué and Colombo&lt;/a&gt; proved that for a certain external force $f$, the Leray-solutions are in fact non-unique. Moreover, the convex integration solutions for the 2D Euler equations are vastly non-unique, in fact, this technique yields infinitely many solutions for any given initial state. To resolve this issue, it is an ongoing task to find further conditions, which single out &lt;em&gt;physical&lt;/em&gt; solutions.&lt;/li&gt;
+&lt;li&gt;Regularity means that in a certain way, if the data has nice properties, which correspond to real physical fluids, then the solutions at least maintain that regularity.&lt;br&gt;
+In constrast to the previously mentioned weak solution, regular solutions are unique. However, it is generally unknown if regular initial data yields regular solutions globally in time for the 3D Navier-Stokes equations. If this was false, it would mean that a nice initial state of the fluid could in time develop singularities, meaning that the fluid has infinite velocity at certain points in space in time. While physically, this is impossible, precise mathematical analysis of the Navier-Stokes equations has still not ruled this out. This is in fact one the &lt;a href=&#34;https://www.claymath.org/millennium-problems/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Millenium prize problems&lt;/a&gt; by the Clay Mathematics Institute, deemed to be one of the most important open mathematical problems, with a $1 Million prize. The problem is likewise open for the 3D Euler equations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Euler equations or Navier-Stokes equations with very small viscosity $\nu &amp;gt; 0$ (or high Reynolds number) are generally associated to turbulent fluid flows. One aspect of turbulent fluids is their unpredictable behavior, note that this directly implies that unique deterministic solutions should not be expected. However, experimentally, it is widely accepted that certain statistical properties of turbulent fluids are in fact reproducible, whereby a probabilistic or statistical solution concept may be most natural. One approach would be to assume that the system is in fact described by a deterministic component plus some noise, which leads to a model based on stochastic differential equations.&lt;br&gt;
+Somewhat differently, rather than trying to describe single, individual solutions, another approach is to describe a whole ensemble of solutions or possible states of the system by a probability distribution on an appropriate phase space. Then, one studies the evolution in time of these distributions. This latter approach can somewhat loosely be found in work by Hopf in 1950 and in a precise framework from &lt;a href=&#34;http://www.numdam.org/item/RSMUP_1972__48__219_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1972&lt;/a&gt; and &lt;a href=&#34;http://www.numdam.org/item/RSMUP_1973__49__9_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1973&lt;/a&gt; by Foias and in &lt;a href=&#34;https://link.springer.com/article/10.1007/BF00973601&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1978&lt;/a&gt; by Vishik and Fursikov for the 3D Navier-Stokes equations.&lt;br&gt;
+Based on further study of these statistical solutions of the Navier-Stokes equations, the main subject of my doctoral studies involved the development of analogous notions of statistical solutions for the 2D Euler equations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0022123622003974?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wagner, R.,Wiedemann, E.: Statistical solutions of the two-dimensional incompressible
+Euler equations in spaces of unbounded vorticity. J. Funct. Anal. 284(4), 109777 (2023)&lt;/a&gt;&lt;br&gt;
+My first published article, written together with my advisor Prof. Dr. Emil Wiedemann, shows existence of statistical solutions of the 2D Euler equations under certain assumptions on the (initial) vorticity for various notions of statistical solutions.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s00021-023-00800-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gallenmüller, D., Wagner, R. &amp;amp; Wiedemann, E. Probabilistic Descriptions of Fluid
+Flow: A Survey. J. Math. Fluid Mech. 25, 52 (2023)&lt;/a&gt;&lt;br&gt;
+My second published article, written with my advisor Prof. Dr. Emil Wiedemann and former post-doctoral researcher Dennis Gallenmüller at the Institute of Applied Analysis, discusses connections between different notions of statistical solutions, some of their relations to other concepts such as so-called measure-valued solutions, presents general strategies to show their existence and briefly discussed some open problems.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2306.05081&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R. Wagner, Vanishing of long time average p-enstrophy dissipation rate in the inviscid
+limit of the 2D damped Navier-Stokes equations, arXiv preprint, 2023&lt;/a&gt;&lt;br&gt;
+My final article, which is currently under review, generalizes and simplifies an earlier result from 2007 by Constantin and Ramos for the vanishing of long-time averages of enstrophy dissipation rate in the vanishing viscosity limit. Enstrophy is the integral of the square of the vorticity in space, thereby representing in a certain sense globally how rotational a fluid is. Note that above, the Euler and Navier-Stokes equations only differ by the viscous term $\nu\Delta u$. Viscosity generally leads to dissipation of enstrophy in time. However, what happens when one considers smaller and smaller viscosity $\nu \to 0$ ? Does the enstrophy dissipation rate also vanish? This is an important question in the Batchelor-Kraichnan theory for 2D turbulence. If there remains some kind of dissipation in the system, this is usually refereed to as anomalous (enstrophy)-dissipation.&lt;br&gt;
+Likewise to Constantin and Ramos, my article first considers long-time averages of the system to obtain a sort of stationary state and then considers the vanishing viscosity scenario, where indeed the viscous enstrophy dissipation rate vanishes as $\nu \to 0$. The preprint utilizes some nice ideas from ergodic and dynamical system theory as well as some recent results on the vanishing viscosity limit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Cheynet, E. Wind Field Simulation (the Fast Version). Zenodo, 2020, doi:10.5281/ZENODO.3774136&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Frisch, U. Turbulence: The Legacy of A. N. Kolmogorov. Cambridge: Cambridge University Press; 1995. doi:10.1017/CBO9781139170666&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>https://raphael-wagner.github.io/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://raphael-wagner.github.io/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

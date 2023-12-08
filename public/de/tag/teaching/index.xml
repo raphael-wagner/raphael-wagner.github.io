@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching | Raphael Wagner</title>
+    <link>https://raphael-wagner.github.io/de/tag/teaching/</link>
+      <atom:link href="https://raphael-wagner.github.io/de/tag/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>de</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://raphael-wagner.github.io/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
+      <title>Teaching</title>
+      <link>https://raphael-wagner.github.io/de/tag/teaching/</link>
+    </image>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://raphael-wagner.github.io/de/academia/teaching/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.github.io/de/academia/teaching/</guid>
+      <description>&lt;p&gt;Since my third semester as a student at Ulm University, I was tutoring and grading undergraduate students in math and computer science programmes. The classes mostly involved the fundamentals of mathematics such as analysis and linear algebra.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /de/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp 400w,
+               /de/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_17f35835c1105d1791f471f171bf1d87.webp 760w,
+               /de/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.github.io/de/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;379&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;My stay at Syrcause University was partially funded by a teaching assistantship, where I was giving three to four recitations each week for Calculus classes and helped students at the weekly Calculus help desk.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01_hu4b236bb8c932d5ca11d05ac2e8d759d5_366692_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse01.jpg&#34; width=&#34;563&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02_hu7cc9c0e071d596f68c86c305ffea5521_225370_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse02.jpg&#34; width=&#34;750&#34; height=&#34;563&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;p&gt;In my position as a doctoral candidate and scientific assistant at Ulm University, my duties involve creating weakly assignment sheets, administer the grading thereof and presenting the solutions in an auditorium.&lt;/p&gt;
+&lt;p&gt;The corresponding classes were mostly on the fundamentals of mathematics. Some more advanced courses for which I organized the exercise include the subjects of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/ws20-1/hyperbolic-conservation-laws/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hyperbolic conservation laws&lt;/a&gt; (taught by Prof. Dr. Emil Wiedemann)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/lehre/ss-23/elements-of-calculus-of-variations/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elements of the calculus of variations&lt;/a&gt; (taught by Dr. Nicola Zamponi)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/lehre/ws-23-24/functional-analysis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Functional analysis (for data science)&lt;/a&gt; (taught by Prof. Dr. Anna Dall’Acqua)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a complete overview of the classes I taught in the past years, see &lt;a href=&#34;https://www.uni-ulm.de/en/mawi/iaa/members/raphael-wagner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my university profile&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During the COVID-19 pandemic, I recorded my exercise sessions. If you would like to get a first impression of me teaching in the classroom, have a look at an excerpt of one the sessions I recorded back then (Analysis 1, winter semester 2020/2021, in German).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Problem: Zeigen Sie die folgende Aussagen mittels vollständiger Induktion.
+Für jede natürliche Zahl $n\in\mathbb{N}$ ergibt die Summe der Quadrate der ersten $n$ natürlichen Zahlen $\frac{1}{6}n(n+1)(2n+1)$.&lt;/em&gt;&lt;/p&gt;
+&lt;video src=&#34;exercise_excerpt.mp4&#34; controls=&#34;controls&#34; style=&#34;max-width: 730px;&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

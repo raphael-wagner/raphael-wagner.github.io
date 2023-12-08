@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: December 8, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.9.3 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.bfcf0ec07d6a061d91610840efa1e36b.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+<meta name="description" content="An overview of my research conducted at the Institute of Applied Analysis at Ulm University during my time as a doctoral candidate." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://raphael-wagner.github.io/other/ml/" />
+<link rel="canonical" href="https://raphael-wagner.github.io/other/ml/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://raphael-wagner.github.io/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Raphael Wagner" />
+<meta property="og:url" content="https://raphael-wagner.github.io/other/ml/" />
+<meta property="og:title" content="Mathematics of machine learning | Raphael Wagner" />
+<meta property="og:description" content="An overview of my research conducted at the Institute of Applied Analysis at Ulm University during my time as a doctoral candidate." /><meta property="og:image" content="https://raphael-wagner.github.io/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2016-04-27T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Mathematics of machine learning | Raphael Wagner</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="bf5c9dddb4c5894761b8c93aad6a9923" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.9738f2447ad7945edbc62bca93fc890e.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Raphael Wagner</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Raphael Wagner</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#academia"><span>Academia</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Work experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#other"><span>Other interests</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#personal"><span>ECAs</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/resume_wagner.pdf"><span>Resume</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Mathematics of machine learning</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 27, 2016
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>I first came across the subject of machine learning in a graduate level course on pattern recognition as part of my minor in computer science.
+The area focuses on the development of processes and algorithms which enable computers to learn a task from experience measured by some performance measure. In particular, the way a task will be performed by a trained machine learning algorithm is not hard coded. In fact, for complex models such as deep neural networks, it appears to be difficult to extract rules by which the model has learned and by which it operates.</p>
+<p>By now, most academics I believe have heard or come across this subject of machine learning due to the broad spectrum of tasks for which there are machine learning methods available (supervised problems: classification, regression,&hellip; and unsupervised problems: clustering and anomaly detection) and its vast success in different areas, e.g., detecting credit card fraud in bank statements or brain tumors in scans.
+Even in the numerical analysis of partial differential equations, machine learning algorithms are establishing themselves. In particular, in the earth sciences, where also a lot of data is collected, the simulation of models nowadays, by my understanding, is not only based on the numerical computation of the involved equations from physics, but is usually combined with data driven approaches. I was lucky to be able to attend talks at the mathematical colloquium at Ulm University given by <a href="https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Jakob_Runge.pdf" target="_blank" rel="noopener">Prof. Dr. Jakob Runge</a> and <a href="https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Kutyniok.pdf" target="_blank" rel="noopener">Prof. Dr. Gitta Kutyniok</a> who are experts in the area.</p>
+<p>Nowadays, there is a ton of books and other resources available to teach machine learning methods to everyone with a very basic understanding of statistics and basic programming skills. Recently, I have been going through <a href="https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/" target="_blank" rel="noopener">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</a> by Aurélien Géron, which I found to be very accessible.</p>
+<p>But even casting aside all the applications, many methods have a rather deep underlying mathematical foundation. The example that I recently came across is that of reproducing kernel Hilbert spaces (RKHS), which I though I could shed some light on here. The nice part is that the theory of reproducing kernel Hilbert spaces not only explains why methods such as ridge regression work and are reasonable, the theory also explains why the user does not need to understand it, as it works in the background.</p>
+<p>Reproducing kernel Hilbert spaces play a role for regression and classification problems.
+Suppose we are given data which lies in some set $X$. Here, $X$ could be a set of text files, numerical data, images, etc. or combinations thereof. We suppose that each element in $X$ has a <em>true</em> class (classification), for instance when $X$ is the set of all dog or cat pictures and we have two classes, cat or dog, or a <em>true</em> or <em>accurate</em> value, such housing prize, where $X$ could be the set of data of housing data in an area.
+Let us go with the latter example. Suppose that we have data $x_1, &hellip; , x_n \in X$ for $n \in \mathbb{N}$ properties and we know the associated housing prizes $y_1,&hellip;,y_n \in \mathbb{R}$ for which property (for instance estimated by experts). Then $(x_1,y_1),&hellip;,(x_n,y_n)$ is our training data.</p>
+<p>We now wish to be able to be able to predict an accurate housing price for any given housing data $x \in X$. We express this by a function $f\colon X \to \mathbb{R}$. We would hope that by choosing $f$ in a way that it is accurate on the training set, it will also accurate on new data.
+We measure accuracy by choosing a performance measure $V\colon X \times \mathbb{R} \to [0,\infty)$, where $V(f(x_i),y_i)$ should be small if $f(x_i) \sim y_i$ and large if $f(x_i)$ and $y_i$ deviate largely. A standard example for a performance measure is the square distance
+$$ V(f(x_i),y_i) = |f(x_i) - y_i|^2.$$
+Taking the mean over the training set, we obtain a loss-function for our regression function $f\colon X \to \mathbb{R}$.
+$$ L(f) = \frac{1}{n}\sum_{i=1}^n V(f(x_i),y_i). $$
+There are many valid choices for performance measures and loss functions. The main property that they usually all have in common is (strict) convexity, which (under further assumptions) leads mathematically to the existence of a unique minimum of the function and at least in theory, to convergence of approximative schemes to this minimum.</p>
+<p>Usually, one has an a priori idea on how simple or complex the relationship between the data $x \in X$ and the labels $y \in \mathbb{R}$ is and makes and a piori choice for one or several general models, e.g., linear or polynomials models. Therefore, instead of considering all functions $f\colon X \to \mathbb{R}$ as possible regression functions, we restrict ourselves to a subset of functions $H \subset \lbrace f\colon X \to \mathbb{R} \rbrace.$
+The regression problem now lies in finding
+$$ f^* := \underset{f \in H}{\operatorname{argmin}} L(f). $$</p>
+<p>Minimization problems tend to be very convenient to handle in the setting of Hilbert spaces. Why? Hilbert spaces are certain vector spaces with an inner product. Such an inner product $\langle\cdot,\cdot\rangle_H$ gives us a notion of orthogonality, which is closely connected to problem of minimizing distances.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-the-least-distance-between-x-and-the-line-segment-l-is-given-by-the-length-of-the-line-segment-through-x-and-l-which-is-perpendicular-to-l">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="image" srcset="
+               /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp 400w,
+               /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_dd1c8d2ca012c7e3e2ae0e0cd4b1a8aa.webp 760w,
+               /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp"
+               width="487"
+               height="347"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      The least distance between $x$ and the line segment $L$ is given by the length of the line segment through $x$ and $L$ which is perpendicular to $L$.
+    </figcaption></figure>
+</p>
+<p>Therefore, we would like to have the Hilbert space structure for our set of functions $H$. This point of view is rather abstract as we view the functions in $H$ similar to points for instance in the plane $\mathbb{R}^2$, where we have a <em>natural</em> notion of orthogonality. But this approach is at the core of <a href="https://en.wikipedia.org/wiki/Functional_analysis" target="_blank" rel="noopener">functional analysis</a> and during the past century has become one of the most powerful theory in mathematical analysis.</p>
+<p>However, how can we achieve a meaningful notions of orthogonality between functions in $H$? This is usually not obvious at all. However, the theory of RKHS actually simplifies this question a ton by means of the <a href="https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space#Moore%E2%80%93Aronszajn_theorem" target="_blank" rel="noopener">Moore-Aronszajn theorem</a>:
+Suppose we have a kernel $K\colon X \times X \to \mathbb{R}$ which is</p>
+<ul>
+<li>symmetric: K(x,y) = K(y,x) for all $x,y \in X$</li>
+<li>positive definite: for all $x_1,&hellip;x_k \in X$, $\lambda_1,&hellip;,\lambda_n \in \mathbb{R}$
+$$ \sum_{i,j=1}^k \lambda_i\lambda_j K(x_i,x_j) \geq 0.$$
+Then there exists a unique Hilbert space $H \subset \lbrace f \colon X \to \mathbb{R}\rbrace$, the <em>reproducing kernel Hilbert space</em> whose reproducing kernel is $K$, meaning that for every $f \in H$,
+$$ f(x) = \langle K(x,\cdot), f \rangle_H.$$
+Hence, one can choose a kernel with this property and (in the background) automatically obtain a RKHS. Although it should be mentioned that the choice of an appropriate kernel may still be a delicate issue. In general, the symmetry and positive definiteness of a kernel are properties it has in common with an inner product $ \langle \cdot, \cdot \rangle$ and there, $\langle x,y \rangle$
+is the orthogonal projection of $x$ onto the line spanned by $y$ (if $y$ is of unit length), meaning it represents the part that $x$ and $y$ have in common. In other words, $\langle x,y \rangle$ is a similarity measure between $x$ and $y$.</li>
+</ul>
+<p>Common examples, if $X = \mathbb{R}^n$, are for instance</p>
+<ul>
+<li>the Gaussian kernel $K(x,y) = \exp\left( \frac{|x-y|^2}{\sigma^2} \right)$ for some $\sigma^2 &gt; 0$,</li>
+<li>or polynomial kernels $K(x,y) = (x \cdot y + 1)^d$ for some $d \in \mathbb{N}$.</li>
+</ul>
+<p>If $X$ does not consist of numerical data in $\mathbb{R}^n$ one can first transform $X$ by use of feature maps $\varphi\colon X \to Y$. If $Y$ is a Hilbert space with inner product $\langle \cdot, \cdot \rangle$, then a kernel is given by
+$$K(x,y) = \langle \varphi(x),\varphi(y) \rangle_Y.$$
+This method of constructing kernels by feature maps can also be used to embed non-linear regression in a lower dimensional space to linear regression in a higher dimensional space. Let us briefly review here the perhaps most prominent example may be regression by quadratic polynomials: Suppose our data is simply one-dimensional $X \subset \mathbb{R}$ and we search for a quadratic regression function
+$$f \colon X \to \mathbb{R}, x \mapsto a x^2 + bx. $$
+Using the feature map $\varphi \colon \mathbb{R} \to \mathbb{R}^2, x \mapsto (x,x^2)$, we hide the non-linear problem in the kernel given by the inner product on $\mathbb{R}^2$ and the feature map $\varphi$, i.e.,
+$$K(x,y) = \langle (x,x^2),(y,y^2)\rangle = xy + x^2y^2.$$
+This is an example of what is usually referred to as <em>kernel trick</em>. This works as one can show that the functions in the associated RKHS do indeed correspond to quadratic functions on $\mathbb{R}$.</p>
+<p>Below, you can see an example of a set of 1-dimensional data $X = G \cup B$ with two different classes
+$$G = \lbrace -1, -2 \rbrace \text{ and } B = \lbrace -3, 1, 2\rbrace,$$
+which is not linearly but quadratically separable in the sense that for $y = f(x) = x^2+2.5x$, we have $G = \lbrace x \in X : f(x) &lt; 0\rbrace$ and $B = \lbrace x \in X : f(x) \geq 0\rbrace$.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-classification-of-1d-values-into-the-two-classes-green-and-blue">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="image" srcset="
+               /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp 400w,
+               /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_bdf7edae1f7a55bc03b0a131a225f0be.webp 760w,
+               /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp"
+               width="545"
+               height="201"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Classification of 1D values into the two classes <em>green</em> and <em>blue</em>.
+    </figcaption></figure>
+</p>
+<p>The feature map transforms the data into points in the plane $\mathbb{R}^2$.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-transformed-data-by-the-feature-map-varphi">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="image" srcset="
+               /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp 400w,
+               /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_78e6e402960b24510fa30fcce68c584a.webp 760w,
+               /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp"
+               width="565"
+               height="469"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Transformed data by the feature map $\varphi$.
+    </figcaption></figure>
+</p>
+<p>There, the data is linearly separable, i.e., if we let
+$$\tilde{G} = \lbrace (-1,1), (-2,4) \rbrace \text{ and } \tilde{B} = \lbrace (-3,9), (1,1), (2,4)\rbrace,$$
+and $\tilde{f}(x,y) = y+2.5x$, then $\tilde{G} = \lbrace (x,y) = \varphi(x) : x \in X \text{ and } \tilde{f}(x,y) &lt; 0\rbrace$, while $\tilde{B} = \lbrace (x,y) = \varphi(x) : x \in X \text{ and } \tilde{f}(x,y) \geq 0\rbrace$.
+Moreover, let us note that we can actually represent $f$ as a linear combination of the kernel functions $K(-3,\cdot), K(-2,\cdot), K(-1,\cdot), K(1,\cdot), K(2,\cdot)$ evaluated at the data in $X$. Indeed,
+$$f(x) = \frac{7}{4} K(1,x) - \frac{3}{4}K(-1,x).$$
+This is not a mere coincident and we will come back to later.</p>
+<p>Finally, I would like to stress again that the Moore-Aronszajn theorem is by no means trivial and understanding its proof does indeed require solid foundation in functional analysis.</p>
+<p>Let us also point here towards the big issue of overfitting the data, which may happen if we search for a model with more complexity than the actual data, which may make the model overly sensitive to noise.
+In our setting of RKHS, this may prevented by Tikhonov regularization, meaning we add to our loss function a regularization term so that
+$$ L(f) = \frac{1}{n}\sum_{i=1}^n V(f(x_i),y_i) + c |f|_H,$$
+where $c &gt; 0$ is a regularization parameter and $|f|_H = \sqrt{\langle f,f\rangle_H}$ is the norm of $f$ given by the inner product on $H$. This is indeed a regularization because any $f \in H$ is Lipschitz continuous with Lipschitz constant $|f|_H$:
+\begin{align*}
+|f(x) - f(y)| &amp;= |\langle f,K(x,\cdot)-K(y,\cdot)\rangle|\newline
+&amp;\leq |f|_K|K(x-y,\cdot)|_K = |f|_K d(x,y),
+\end{align*}
+where $d(x,y) := |K(x-y,\cdot)|_H$ can in fact be thought of as distance on $X$ between $x$ and $y$. This Lipschitz continuity means that the slope of $f$ is bounded by $|f|_H$. Therefore, by adding this quantity into our loss functional that we are trying to minimize, we are preventing overfitting behaviour.</p>
+<p>Now, in general, it can be hard or almost impossible to determine the RKHS associated to a kernel $K$. Therefore, even if the setting of RKHS allows us to theoretically derive the existence of an optimal solution $f^* \in H$ to the regression problem, what good is it in practice if we have no idea what $f^*$ or even $H$ looks like?
+Again, the abstract theory of RKHS helps us out by means of the <a href="https://en.wikipedia.org/wiki/Representer_theorem" target="_blank" rel="noopener">representer theorem</a>, which states that:</p>
+<p>In the situation above, the optimal solution is given by
+$$ f^*(x) = \sum_{i=1}^n \lambda_i K(x_i,x) $$
+for some coefficients $\lambda_1,&hellip;,\lambda_n \in \mathbb{R}^n$.</p>
+<p>Hence, we only need to search for the minimum in the class of linear combinations of the functions $x \mapsto K(x_1,x),&hellip;,K(x_n,x)$ which essentially boils down to linear regression in $\mathbb{R}^n$.</p>
+<p>The diagram below commutes so to speak, meaning that instead of going the way around the abstract theory to arrive at a minimizer for our loss function, it actually suffices to perform linear regression in $\mathbb{R}^n$ to obtain optimal coefficients $\lambda_1, &hellip; ,\lambda_n \in \mathbb{R}$ for the function $f^*(x) = \sum_{i=1}^n \lambda_i K(x_i,x)$.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-searching-for-optimal-regression-functions-by-means-of-rkhs">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="image" srcset="
+               /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_ec6d0dec75b6ec109507b5a8307dbaea.webp 400w,
+               /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_b2252562843d88c07ec7b249ebf3f722.webp 760w,
+               /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_ec6d0dec75b6ec109507b5a8307dbaea.webp"
+               width="760"
+               height="292"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Searching for optimal regression functions by means of RKHS
+    </figcaption></figure>
+</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/ml/">ML</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fraphael-wagner.github.io%2Fother%2Fml%2F&amp;text=Mathematics&#43;of&#43;machine&#43;learning" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fraphael-wagner.github.io%2Fother%2Fml%2F&amp;t=Mathematics&#43;of&#43;machine&#43;learning" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Mathematics%20of%20machine%20learning&amp;body=https%3A%2F%2Fraphael-wagner.github.io%2Fother%2Fml%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fraphael-wagner.github.io%2Fother%2Fml%2F&amp;title=Mathematics&#43;of&#43;machine&#43;learning" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Mathematics&#43;of&#43;machine&#43;learning%20https%3A%2F%2Fraphael-wagner.github.io%2Fother%2Fml%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fraphael-wagner.github.io%2Fother%2Fml%2F&amp;title=Mathematics&#43;of&#43;machine&#43;learning" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://raphael-wagner.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hueead46205df7a1e410342e864f7e1b3b_1078772_270x270_fill_q75_lanczos_center.jpg" alt=""></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://raphael-wagner.github.io/"></a></h5>
+      <h6 class="card-subtitle">Doctoral candidate</h6>
+      <p class="card-text">My research interests are weak solution concepts in mathematical fluid mechanics. In particular statistical and measure-valued solutions.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:raphael.wagner@mail.de" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/raphael-wagner-45a4212a0" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume_wagner.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Raphael Wagner. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.87a9ab74e718a57ab80b2c18297f28a8.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9137013a66774049159934c29c3f0205.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
