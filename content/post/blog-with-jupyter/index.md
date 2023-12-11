@@ -28,7 +28,7 @@ Place the notebooks that you would like to publish in a `notebooks` folder at th
 
 ```bash
 pipx install academic
-academic import 'notebooks/**.ipynb' content/en/other/ML --verbose
+academic import 'notebooks/**.ipynb' content/en/other/new --verbose
 ```
 
 The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder.

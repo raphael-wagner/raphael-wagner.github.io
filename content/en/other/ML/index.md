@@ -126,3 +126,81 @@ Hence, we only need to search for the minimum in the class of linear combination
 The diagram below commutes so to speak, meaning that instead of going the way around the abstract theory to arrive at a minimizer for our loss function, it actually suffices to perform linear regression in $\mathbb{R}^n$ to obtain optimal coefficients $\lambda_1, ... ,\lambda_n \in \mathbb{R}$ for the function $f^*(x) = \sum_{i=1}^n \lambda_i K(x_i,x)$.
 
 ![image](diagram_RKHS.jpg "Searching for optimal regression functions by means of RKHS")
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.kernel_ridge import KernelRidge
+from sklearn.model_selection import GridSearchCV
+
+np.random.seed(42)
+
+num_samples = 100
+
+# generate the independent variable (x) as a random sample from a uniform distribution
+X = np.random.uniform(low=0.0, high=6, size=num_samples)
+
+# generate the dependent variable (y) as sin(x) with some gaussian noise
+noise = np.random.normal(scale=0.25, size=num_samples)
+y = np.sin(X).ravel() + noise
+
+X = X.reshape(-1, 1)
+y = y.reshape(-1, 1)
+
+# plot sample data
+plt.scatter(X, y)
+plt.xlabel('X')
+plt.ylabel('y')
+plt.title('Nonlinear sample data')
+plt.show()   
+```
+
+
+    
+![png](ridge_reg_files/ridge_reg_0_0.png)
+    
+
+
+
+```python
+# Fit a ridge regression model with gaussian kernel
+# Use grid-search cross-validation to find good parameter combinations alpha (regularization) and gamma = 1/sigma
+
+kr_cv = GridSearchCV(
+    KernelRidge(kernel="rbf", gamma=0.1),    
+    param_grid={"alpha": [1e0, 0.1, 1e-2, 1e-3], "gamma": np.linspace(1, 100, 10)},
+)
+kr_cv.fit(X, y)
+y_train_pred = kr_cv.predict(X)
+
+plt.scatter(X, y, c='k', label="data")
+plt.scatter(X, y_train_pred, c='r', label="predicted data")
+
+X_plot = np.linspace(0, 6, 1000)[:, None]
+plt.plot(X_plot, np.sin(X_plot).ravel(), c='b', label="sin(x) (''true'' values)")
+
+plt.xlabel("X")
+plt.ylabel("y")
+plt.title("Kernel ridge regression")
+plt.legend()
+```
+
+
+
+
+    <matplotlib.legend.Legend at 0x1ca3ed91970>
+
+
+
+
+    
+![png](ridge_reg_files/ridge_reg_1_1.png)
+    
+
+
+
+```python
+
+```
+
