@@ -18,6 +18,7 @@ first_name: Raphael
 highlight_name: true
 interests:
 - Mathematical fluid dynamics
+- Mathematical modelling (deterministically and stochastically)
 - Machine learning (theory and practice)
 last_name: Wagner
 organizations:
@@ -70,7 +71,7 @@ social:
   link: https://www.linkedin.com/in/raphael-wagner-45a4212a0
 - icon: cv
   icon_pack: ai
-  link: uploads/resume_wagner.pdf
+  link: themes/starter-hugo-academic/static/uploads/resume_wagner.pdf
 # - display:
 #     header: true
 #   icon: twitter
@@ -88,7 +89,14 @@ status:
 superuser: true
 ---
 
-I am doctoral student at the Institute of Applied Analysis at Ulm University, expected to graduate in early 2024. My research in the group of Prof. Dr. Emil Wiedemann focuses on statistical concepts in mathematical fluid dynamics, motivated by statistical descriptions of turbulence. Outside of my academic research, I am intrigued by recent trends in machine learning.
+I am doctoral student at the Institute of Applied Analysis at Ulm University, expected to graduate in early 2024. My research in the group of Prof. Dr. Emil Wiedemann focuses on statistical concepts in mathematical fluid dynamics, motivated by statistical descriptions of turbulence. 
+
+<!--
+Outside of my research, I am generally interested in mathematical modelling for questions ranging from the [development of stripes in a tiger's fur](https://royalsocietypublishing.org/doi/10.1098/rstb.1952.0012) to the [description of traffic flows.](https://royalsocietypublishing.org/doi/10.1098/rspa.1955.0089)  
+-->
+
+Next to a general interest in mathematical modeling, I am also interested in machine learning. The latter subject is not only fascinating for its widespread applications but also for its theory being a combination of various intriguing mathematical subjects.
+
 
 ### News:
  - I submitted my doctoral thesis on 10th of October 2023. The defense is likely going to be in January 2024. 

@@ -50,11 +50,13 @@ sections:
       tag: Research
     - name: Teaching
       tag: Teaching
+    - name: Machine learning
+      tag: Machine learning
     default_button_index: 0
     filters:
       folders:
       - academia
-    title: Academia
+    title: Academic interests
   design:
     columns: "1"
     flip_alt_rows: false
@@ -74,8 +76,8 @@ sections:
       description: |2-
           Responsibilities include:
 
-          * Creating weekly assignment sheets, administering the grading thereof and presenting the corresponding solutions in an auditorium.
-          * Organising recitations for one or two classes each semester.
+          * Creating weekly assignment sheets and final exams, administering the grading thereof and presenting the corresponding solutions in an auditorium.
+          * Organizing recitations for one or two classes each semester.
       location: Ulm, DE
       title: Scientific Assistant
     - company: Kistler Chemnitz GmbH (formerly AMS GmbH)
@@ -85,7 +87,7 @@ sections:
       date_start: "2017-07-01"
       description: |2-
       
-          * The AMS GmbH was specialised in developing software for the   analysis and management of measurement data - the company has been acquired in December 2018 by the Kistler Group, a global leader in dynamic measurement technology.
+          * The AMS GmbH was specialized in developing software for the   analysis and management of measurement data - the company has been acquired in December 2018 by the Kistler Group, a global leader in dynamic measurement technology.
           * Created a specific component for a customer within the company’s framework jBeam that determines optimal machine parameters based on entered test data.
           
       location: Chemnitz, DE
@@ -107,25 +109,25 @@ sections:
 #     title: Other Interests
 #     username: admin
 #     text: "Anything"
-- block: portfolio
-  content:
-    buttons:
-    # - name: All
-    #   tag: '*'
-    - name: Mathematics of Machine Learning
-      tag: ML
-    - name: Teaching
-      tag: Teaching
-    default_button_index: 0
-    filters:
-      folders:
-      - other
-    title: Other Interests
-  design:
-    columns: "1"
-    flip_alt_rows: false
-    view: showcase
-  id: other
+# - block: portfolio
+#   content:
+#     buttons:
+#     # - name: All
+#     #   tag: '*'
+#     - name: Mathematics of machine learning
+#       tag: ML
+#     - name: Teaching
+#       tag: Teaching
+#     default_button_index: 0
+#     filters:
+#       folders:
+#       - other
+#     title: Other Interests
+#   design:
+#     columns: "1"
+#     flip_alt_rows: false
+#     view: showcase
+#   id: other
 - block: markdown
   content:
     subtitle: ""

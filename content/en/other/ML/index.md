@@ -1,8 +1,8 @@
 ---
 date: "2016-04-27T00:00:00Z"
 external_link: ""
-image:
-  caption: vortex shedding of a flow around cylinder
+image: 
+  caption: Sketch of a simple neural network
   focal_point: Smart
 # links:
 # - icon: twitter
@@ -10,7 +10,7 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: An overview of my research conducted at the Institute of Applied Analysis at Ulm University during my time as a doctoral candidate.
+summary: A brief outline of some aspects of mathematical machine learning that interest me. I describe some more details for the subject of reproducing kernel Hilbert spaces and ridge regression.
 tags:
 - ML
 title: Mathematics of machine learning
@@ -19,20 +19,12 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 
-gallery_item:
-  - album: research_01
-    image: signal_01.jpg
-    caption: longitudinal velocity
-  - album: research_01
-    image: histogram_01.jpg
-    caption: Histogram of recorded velocities
-  
 ---
 
 I first came across the subject of machine learning in a graduate level course on pattern recognition as part of my minor in computer science.
 The area focuses on the development of processes and algorithms which enable computers to learn a task from experience measured by some performance measure. In particular, the way a task will be performed by a trained machine learning algorithm is not hard coded. In fact, for complex models such as deep neural networks, it appears to be difficult to extract rules by which the model has learned and by which it operates. 
 
-By now, most academics I believe have heard or come across this subject of machine learning due to the broad spectrum of tasks for which there are machine learning methods available (supervised problems: classification, regression,... and unsupervised problems: clustering and anomaly detection) and its vast success in different areas, e.g., detecting credit card fraud in bank statements or brain tumors in scans.
+By now, most academics I believe have heard or come across this subject of machine learning due to the broad spectrum of tasks for which there are machine learning methods available (supervised problems: classification, regression, ... and unsupervised problems: clustering and anomaly detection) and its vast success in different areas, e.g., detecting credit card fraud in bank statements or brain tumors in scans.
 Even in the numerical analysis of partial differential equations, machine learning algorithms are establishing themselves. In particular, in the earth sciences, where also a lot of data is collected, the simulation of models nowadays, by my understanding, is not only based on the numerical computation of the involved equations from physics, but is usually combined with data driven approaches. I was lucky to be able to attend talks at the mathematical colloquium at Ulm University given by [Prof. Dr. Jakob Runge](https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Jakob_Runge.pdf) and [Prof. Dr. Gitta Kutyniok](https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Kutyniok.pdf) who are experts in the area.
 
 Nowadays, there is a ton of books and other resources available to teach machine learning methods to everyone with a very basic understanding of statistics and basic programming skills. Recently, I have been going through [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) by Aurélien Géron, which I found to be very accessible. 

@@ -13,12 +13,12 @@ main:
   - name: Berufserfarung
     url: '#experience'
     weight: 30
-  - name: Weitere Interessen
-    url: '#other'
-    weight: 40
+  # - name: Weitere Interessen
+  #   url: '#other'
+  #   weight: 40
   - name: Freizeit
     url: '#personal'
-    weight: 50
+    weight: 40
   # - name: Posts
   #   url: '#posts'
   #   weight: 20
