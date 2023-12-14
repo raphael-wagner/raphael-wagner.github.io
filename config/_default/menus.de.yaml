@@ -7,10 +7,10 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Akademisches
+  - name: Akademische Interessen
     url: '#academia'
     weight: 20
-  - name: Berufserfarung
+  - name: Berufserfahrung
     url: '#experience'
     weight: 30
   # - name: Weitere Interessen

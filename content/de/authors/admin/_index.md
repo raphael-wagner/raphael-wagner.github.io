@@ -1,29 +1,30 @@
 ---
-bio: My research interests are weak solution concepts in mathematical fluid mechanics. In particular statistical and measure-valued solutions.
+bio: Meine Forschungsinteressen betreffen schwache Lösungskonzepte in der mathematischen Strömungsmechanik. Insbesondere statistische und maßwertige Lösungen.
 education:
   courses:
-  - course: Doctoral candidate
-    institution: Ulm University, Institute of Applied Analysis (DE)
-    year: 09/2020 - ongoing
-  - course: M.Sc. Mathematics
-    institution: Ulm University (DE)
+  - course: Doktorand 
+    institution: Universität Ulm, Institut für angewandte Analysis (DE)
+    year: 09/2020 - aktuell
+  - course: M.Sc. Mathematik
+    institution: Universität Ulm (DE)
     year: 11/2017 - 08/2020
   - course: M.Sc. Mathematics
     institution: Syracuse University (US)
     year: 08/2018 - 05/2019
-  - course: B.Sc. in Mathematics and Management
-    institution: Ulm University (DE)
+  - course: B.Sc. in Wirtschaftsmathematik
+    institution: Universität Ulm (DE)
     year: 10/2014 - 10/2017
 first_name: Raphael
 highlight_name: true
 interests:
-- Mathematical fluid dynamics
-- Machine learning (theory and practice)
+- Mathematische Strömungsmechanik
+- Mathematische Modellierung (deterministisch and stochastisch)
+- Maschinelles Lernen (Theorie und Anwendung)
 last_name: Wagner
 organizations:
-- name: Ulm University, Institute of Applied Analysis
-  url: https://www.uni-ulm.de/en/mawi/iaa/members/raphael-wagner/
-role: Doctoral candidate
+- name: Universität Ulm, Institut für Angewandte Analysis
+  url: https://www.uni-ulm.de/mawi/iaa/members/raphael-wagner/
+role: Doktorand und akademischer Angestellter
 # skills:
 # - items:
 #   - description: ""
@@ -70,7 +71,7 @@ social:
   link: https://www.linkedin.com/in/raphael-wagner-45a4212a0
 - icon: cv
   icon_pack: ai
-  link: uploads/resume_wagner.pdf
+  link: themes/starter-hugo-academic/static/uploads/resume_wagner.pdf
 # - display:
 #     header: true
 #   icon: twitter
@@ -88,7 +89,15 @@ status:
 superuser: true
 ---
 
-I am doctoral student at the Institute of Applied Analysis at Ulm University, expected to graduate in early 2024. My research in the group of Prof. Dr. Emil Wiedemann focuses on statistical concepts in mathematical fluid dynamics, motivated by statistical descriptions of turbulence. Outside of my academic research, I am intrigued by recent trends in machine learning.
+Ich bin Doktorand am Institut für Angewandte Analysis der Universität Ulm und schließe meine Promotionsvorhaben voraussichtlich im Frühjahr 2024 ab. Meine Forschung in der Arbeitsgruppe von Prof. Dr. Emil Wiedemann fokusiert sich auf statistische Lösungenkonzepte in der mathematischen Strömungsmechanik, motiviert durch statistische Beschreibung von Turbulenz.
+
+<!--
+Outside of my research, I am generally interested in mathematical modelling for questions ranging from the [development of stripes in a tiger's fur](https://royalsocietypublishing.org/doi/10.1098/rstb.1952.0012) to the [description of traffic flows.](https://royalsocietypublishing.org/doi/10.1098/rspa.1955.0089)  
+-->
+
+Neben einem allgemeinen Interesse an mathematischer Modellierung interessiere ich mich weiterhin für maschinelles Lernen. Letzteres Gebiet ist nicht nur aufgrund seiner breiten Anwendungsgebiete faszinierend, sondern auch durch die zugrundeliegende Theorie, welche verschiedene spannende mathematische Disziplinen vereint.
+
 
 ### News:
- - I submitted my doctoral thesis on 10th of October 2023. The defense is likely going to be in January 2024. 
+- Ich habe meine Dissertation am 10. Oktober 2023 eingereicht. Die Verteidigung findet voraussichtlich im Januar 2024 statt.
+

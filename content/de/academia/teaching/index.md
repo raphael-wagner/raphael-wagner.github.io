@@ -10,27 +10,27 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: An overview of classes I taught during the past years.
+summary: An overview of my teaching experience during the past years.
 tags:
-- Teaching
-title: Teaching
+- Lehre
+title: Lehre
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-Since my third semester as a student at Ulm University, I was tutoring and grading undergraduate students in math and computer science programmes. The classes mostly involved the fundamentals of mathematics such as analysis and linear algebra.
+From my third semester as a student at Ulm University on, I was tutoring and grading undergraduate students in math and computer science programmes. The classes mostly involved the fundamentals of mathematics such as analysis and linear algebra.
 
 ![image](LA_Analysis.jpg)
 
-My stay at Syrcause University was partially funded by a teaching assistantship, where I was giving three to four recitations each week for Calculus classes and helped students at the weekly Calculus help desk. 
+My stay at Syracuse University as a graduate student was partially funded by a teaching assistantship, where I was giving three to four recitations each week for calculus classes and helped students at the weekly calculus help desk. 
 
 {{< gallery album="syracuse" >}}
 
-In my position as a doctoral candidate and scientific assistant at Ulm University, my duties involve creating weakly assignment sheets, administer the grading thereof and presenting the solutions in an auditorium.
+In my position as a doctoral candidate and scientific assistant at Ulm University, my duties involve creating weekly assignment sheets as well as the final exams, administering the grading thereof and presenting the solutions in an auditorium.
 
-The corresponding classes were mostly on the fundamentals of mathematics. Some more advanced courses for which I organized the exercise include the subjects of
+The corresponding classes were mostly on the fundamentals of mathematics. Some more advanced courses for which I organized the exercises include the subjects of
 
 *	[Hyperbolic conservation laws](https://www.uni-ulm.de/en/ws20-1/hyperbolic-conservation-laws/) (taught by Prof. Dr. Emil Wiedemann)
 *	[Elements of the calculus of variations](https://www.uni-ulm.de/en/mawi/iaa/lehre/ss-23/elements-of-calculus-of-variations/) (taught by Dr. Nicola Zamponi)

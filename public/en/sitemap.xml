@@ -2,34 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://raphael-wagner.github.io/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://raphael-wagner.github.io/de/talk/example-talk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://raphael-wagner.github.io/talk/example-talk/"
-                />
-  </url><url>
-    <loc>https://raphael-wagner.github.io/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://raphael-wagner.github.io/de/event/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://raphael-wagner.github.io/event/"
-                />
-  </url><url>
     <loc>https://raphael-wagner.github.io/academia/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -301,6 +273,14 @@
                 hreflang="en-us"
                 href="https://raphael-wagner.github.io/project/external-project/"
                 />
+  </url><url>
+    <loc>https://raphael-wagner.github.io/tag/machine-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://raphael-wagner.github.io/academia/ml/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://raphael-wagner.github.io/other/ml/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
