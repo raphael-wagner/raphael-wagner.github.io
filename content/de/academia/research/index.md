@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: vortex shedding of a flow around cylinder
+  caption: Wirbelabwurf eines Flusses um einen Zylinder
   focal_point: Smart
 # links:
 # - icon: twitter
@@ -10,7 +10,7 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: A brief description of my research in mathematical fluid mechanics, conducted at the Institute of Applied Analysis at Ulm University during my time as a doctoral candidate.
+summary: Eine kurze Beschreibung meiner Forschung über mathematische Strömungsmechanik, durchgeführt am Institut für Angewandte Analysis der Universität Ulm während meiner Zeit als Doktorand.
 tags:
 - Forschung
 title: Forschung
@@ -28,22 +28,23 @@ gallery_item:
     caption: Histogram of recorded velocities
 ---
 
-In my research, I study statistical notions of solutions for certain equations in mathematical fluids mechanics. While the development of this theory tends to be quite abstract, some motivation comes from studying and experimenting with turbulent flows. Indeed, it is a longstanding and widely accepted view in turbulence theory that turbulent flows are more accurately described by probabilistic and statistical models than by purely deterministic considerations. Indeed, one of the fundamental aspects of a turbulence flow is the difficulty in the precise prediction of its behavior.\
-Therefore, in the applied sciences, models of turbulent flows typically have a stochastic component and consider averages of the quantities in the governing mathematical equations.\
-Below you can see two signals using the same parameters, produced by a Matlab implementation by E. Cheynet[^1] of the [von Kármán wind turbulence model](https://en.wikipedia.org/wiki/Von_K%C3%A1rm%C3%A1n_wind_turbulence_model), which is based on the Reynolds-averaged Navier-Stokes (RANS) equations. This model has proven to provide a fairly accurate basis for the description of wind turbulence. 
+In meiner Forschung studiere ich verschiedene Begriffe statistischer Lösungen für gewisse Gleichungen in der mathematischen Strömungsmechanik. Während die Entwicklung dieser Theorie tendenziell sehr abstrakt angelegt ist, stammt die Motivation dafür aus der Untersuchung von Experimenten turbulenter Strömungen. Es ist in der Tat seit langem ein Paradigma in der Turbulenztheorie, dass solche Strömungen besser beschrieben werden können durch probabilistische und statistische Modelle, anstelle von rein deterministischen Überlegungen. So ist gerade einer der fundamentalen Eigenschaften einer turbulenten Strömung die Schwierig- bzw. Unmöglichkeit einer präzisen deterministschen Vorhersage ihres Verhaltens.\
+Daher haben in den angewandten Wissenschaften Modelle turbulenter Strömungen in der Regel stets eine stchastische Komponente und betrachten häufig Mittel von relevanten Größen (Geschwindigkeit, Vortizität, etc.) in deren Beschreibung.\
+Nachfolgend sind zwei Signale dargestellt mit denselben Parametern, welche aus einer Matlab Implementierung von E. Cheynet[^1] des [von Kármán Wind-Turbulenz Modells](https://en.wikipedia.org/wiki/Von_K%C3%A1rm%C3%A1n_wind_turbulence_model) stammen. Dieses Modell basiert auf den Reynolds-averaged Navier-Stokes (RANS) Gleichungen und hat sich als recht verlässliche Basis für die Beschreibung von Wind-Turbulenz bewiesen.
 
 ![image](signal_combined_01.gif)
 ![image](signal_combined_02.gif)
 
-If we consider the final histograms below, we note that both look somewhat similar. Of course, our sample is very small and we only repeated the simulation twice. More importantly, I have to admit that the model and its simulation already includes some randomness, whereby this result is not very surprising. However, this behavior is also observed in real measurement data from wind tunnels, see for instance U. Frisch[^2].
+Wenn wir nachfolgend die finalen Histogramme über alle Geschwindigkeiten, die in der Simulation aufgetreten sind betrachten, stellen wir fest, dass diese eine gewisse Ähnlichkeit haben. Natürlich ist unsere Stichprobe sehr klein und die Simulation wurde nur zweimal wiederholt. Noch wichtiger ist es, dass ich betone, dass dieses Modell und dessen Implementierung bereits eine stochastische Komponente beinhalten, sodass die oben stehenden Histogramme nicht allzu überaschend sind. Allerdings werden solche Signale sehr ähnlich in echten Messungen in Windtunneln aufgezeichnet, wie man etwa in U. Frisch[^2] sehen kann.
 
 ![image](histograms.png)
 
-Alternative and probabilistic approaches to the models and equations from fluid mechanics also stem from the fact that existence of a unique, physically relevant solution for these equations is often unknown. In fact, one the 1 Mio. $ prize [Millenium prize problems](https://www.claymath.org/millennium-problems/) focuses around this issue.
+Alternative und probabilistische Ansätze für Modelle und Gleichungen aus der Strömungsmechanik haben sich aus Tatsache heraus entwickelt, dass die Existenz eindeutiger, physikalisch relevanter Lösungen für diese Gleichungen oftmals unbekannt ist. Sogar eines der 1 Mio. $ [Milleniumsprobleme](https://www.claymath.org/millennium-problems/) bezieht sich auf diese Problematik.
 
-In the following section, I will describe a little bit more in depth what my research area is about and what problems I considered in my articles and preprints.
+Im Folgenden werde ich etwas tiefer mein Forschungsgebiet beschreiben und welche Probleme ich in meinen Fachartikeln und Vorveröffentlichungen betrachtet habe.
 
-In my research, I primarily consider the incompressible Euler 
+In meiner Forschung studiere ich primär die inkompressiblen Euler Gleichungen
+
 $$
 \begin{equation}
 \begin{split}
@@ -52,7 +53,7 @@ $$
 \end{split}
 \end{equation}
 $$
-and Navier-Stokes equations
+sowie die inkompresseiblen Navier-Stokes Gleichungen
 $$
 \begin{equation}
 \begin{split}
@@ -61,34 +62,40 @@ $$
 \end{split}
 \end{equation}
 $$
-formulated here in velocity $u \colon (0,T) \times \Omega \to \mathbb{R}^d$ with pressure $p\colon (0,T) \times \Omega \to \mathbb{R}$, an external force $f\colon (0,T) \times \Omega \to \mathbb{R}^d$ and kinematic viscosity $\nu > 0$ on a domain $\Omega \subset \mathbb{R}^d$ until some time $T > 0$.
-Both equations are fundamental equations in fluid mechanics, yet mathematically, many standard questions in the theory of partial differential equations such as *existence*, *uniqueness*, and *regularity* are still open. Let me first explain what these properties mean and then point out a small selection of the currently open issues related to these.
+für ein Geschwindigkeitsfeld $u \colon (0,T) \times \Omega \to \mathbb{R}^d$ mit Druck $p\colon (0,T) \times \Omega \to \mathbb{R}$, einer externen Kraft $f\colon (0,T) \times \Omega \to \mathbb{R}^d$ und kinematischer Viskosität $\nu > 0$ auf einem Gebiet $\Omega \subset \mathbb{R}^d$ bis zu einer Zeit $T > 0$.\
+Beide Gleichungen sind fundamental in der Strömungsmechanik, doch zugleich sind mathematisch viele Standardfragen und Probleme in der Theorie partieller Differentialgleichungen wie etwa *Existenz*, *Eindeutigkeit*, und *Regularität* noch immer ungelöst. Ich möchte daher zunächst kurz erklären, was diese Eigenschaften bedeuten und ein paar damit verbundene offene Probleme nennen.
 
-* Existence: For any initial state of the fluid and other fixed parameters such as boundary data, we would like there to exist a solution to these fluid equations which describes the fluid at any later time. After all, we describe a physical problem and would expect such solutions to exist.\
-Existence of (weak) solutions for the 3D Navier-Stokes equations has been known since the work of Leray in 1934. For the 2D Euler equations, many general existence results for weak solutions have been obtained in the past 15 years using the [convex integration](https://annals.math.princeton.edu/2009/170-3/p09) machinery by De Lellis and Székelyhidi Jr. 
-* Uniqueness: Ideally, such a solution to these equations should also be unique. After all, if all the data is fixed, we would intuitively expect that the behavior of the fluid is deterministic, rather than having to deal with the possibility of the fluid behaving (at random) in different ways.\
-Just in the past year, however, [Albritton, Brué and Colombo](https://projecteuclid.org/journals/annals-of-mathematics/volume-196/issue-1/Non-uniqueness-of-Leray-solutions-of-the-forced-Navier-Stokes/10.4007/annals.2022.196.1.3.full) proved that for a certain external force $f$, the Leray-solutions are in fact non-unique. Moreover, the convex integration solutions for the 2D Euler equations are vastly non-unique, in fact, this technique yields infinitely many solutions for any given initial state. To resolve this issue, it is an ongoing task to find further conditions, which single out *physical* solutions.
-* Regularity means that in a certain way, if the data has nice properties, which correspond to real physical fluids, then the solutions at least maintain that regularity.\
-In constrast to the previously mentioned weak solution, regular solutions are unique. However, it is generally unknown if regular initial data yields regular solutions globally in time for the 3D Navier-Stokes equations. If this was false, it would mean that a nice initial state of the fluid could in time develop singularities, meaning that the fluid has infinite velocity at certain points in space in time. While physically, this is impossible, precise mathematical analysis of the Navier-Stokes equations has still not ruled this out. This is in fact one the [Millenium prize problems](https://www.claymath.org/millennium-problems/) by the Clay Mathematics Institute, deemed to be one of the most important open mathematical problems with a $1 Million prize. The problem is likewise open for the 3D Euler equations. 
+* Existenz: Für jeden Anfangszustand des Fluids und anderen fixen Parametern wie etwa Randdaten hätten wir gerne, dass mathematisch eine Lösung zu den relevanten Fluidgleichungen gibt. Schließlich beschreiben wir ja ein physikalisches System und würden dies entsprechend erwarten.\
+Existenz sogenannten schwacher Lösungen der 3D Navier-Stokes Gleichungen ist lange bekannt seit der Arbeit von Leray in 1934. Für die 2D Euler Gleichungen konnten viele (schwache) Existenzresultate in den letzten 15 Jahren mit der Methode [konvexer Integration](https://annals.math.princeton.edu/2009/170-3/p09) von De Lellis and Székelyhidi Jr. ausgestellt werden.\
+Existenz physikalisch relevanter Lösungen innerhalb eines beliebigen Zeitintervalls ist allerdings nach wie vor im Allgemeinen unbekannt. Ich gehe darauf gleich noch im Punkt *Regularität* etwas ein.  
+* Eindeutigkeit: Idealerweise sollte gefunde Lösungen eindeutig sein. Schließlich würde man erwarten, dass wenn alle Parameter sowie Anfangs-und Randdaten festgelegt sind, das Verhalten des Fluids eindeutig bestimmbar sein sollte.\
+Allerdings wurde gerade erst im vergangenen jahr von [Albritton, Brué and Colombo](https://projecteuclid.org/journals/annals-of-mathematics/volume-196/issue-1/Non-uniqueness-of-Leray-solutions-of-the-forced-Navier-Stokes/10.4007/annals.2022.196.1.3.full) gezeigt, dass wür eine gewisse externe Kraft $f$, die Leray-Lösungen in der Tat uneindeutig sind. Es also zwei unterschiedliche Lösungen zu denselben Paramatern und Daten gibt. Darüber Hinaus produziert die zuvor erwähnte Methode konvexer Integration zu festen Daten der 2D Euler Gleichungen geradezu unendlich viele Lösungen. Zur Lösung dieses Problems ist es daher ein aktuelles Forschungsproblem weitere Bedingungen zu finden, mittels welcher man aus den vielen Lösungen eine (oder evtl. mehrere ähnliche) Lösungen herausfiltern kann, welche physikalisch am relevantesten erscheint.
 
-The Euler equations or Navier-Stokes equations with very small viscosity $\nu > 0$ (or high Reynolds number) are generally associated to turbulent fluid flows as this translates to fluid particles being able to move more independently from one another.\
-In contrast to our description above of uniqueness, one aspect of turbulent fluids is their unpredictable behavior, whereby it may be unreasonable to expect unique solutions. Rather, one should allow for the possibility of the system potentially evolving in different ways.\
-This is not too bad since at least experimentally, it is widely accepted that certain statistical properties of turbulent fluids are in fact reproducible, whereby a probabilistic or statistical solution concept may be accurate and more natural.\
-One approach would be to assume that the system is in fact described by a deterministic component plus some noise, which leads to a model based on stochastic differential equations.\
-Somewhat differently, rather than trying to describe single, individual solutions, another approach is to describe a whole ensemble of solutions or possible states of the system by a probability distribution on an appropriate phase space. Then, one studies the evolution in time of these distributions. This latter approach can somewhat loosely be found in work by Hopf in 1950 and in a precise framework from [1972](http://www.numdam.org/item/RSMUP_1972__48__219_0.pdf) and [1973](http://www.numdam.org/item/RSMUP_1973__49__9_0.pdf) by Foias and in [1978](https://link.springer.com/article/10.1007/BF00973601) by Vishik and Fursikov for the 3D Navier-Stokes equations.\
-Based on further study of these statistical solutions of the Navier-Stokes equations, the main subject of my doctoral studies involved the development of analogous notions of statistical solutions for the 2D Euler equations. 
+* Regularität bedeutet, dass wenn die Daten und Parameter gute Eigenschaften haben wie man sie von echten Fluiden in Experimenten und Anwendungen erwarten würde, die mathematische Lösung ebenfalls diese Eigenschaften beibehält.\
+In Kontrast zu den zuvor genannten schwachen Lösungen sind solche regulären Lösungen im allgemeinen stets eindeutig. Allerdings ist für diese oft die Existenzfrage ungeklärt bzw. ein offenes mathematisches Problem. Falls für die 3D Navier-Stokes Gleichungen dies falsch wäre, würde dies bedeuten, dass ein Fluid mit guten, physikalisch relevanten Parametern und Anfangs- und Randdaten in endlicher Zeit unendliche Geschwindigkeit entwickeln kann. Während dies physikalisch natürlich unmöglich ist, konnte dies mathematisch noch immer nicht ausgeschlossen werden und ist in eines der [Milleniumsprobleme](https://www.claymath.org/millennium-problems/) des Clay Mathematics Institute, welches als eines der bedeutendsten offenen mathematischen Probleme aufgefasst wird mit einem Preis dotiert auf eine Million USD.\
+Dieses Problem besteht gleichermaßen für die 3D Euler Gleichungen.
+
+Die Euler Gleichungen oder Navier-Stokes Gleichungen mit sehr kleiner Viskosität $\nu > 0$ (bzw. großer Reynolds-Zahl) werde generell assoziiert mit turbulenten Strömungen, da ein solcher Parameter bedeuter, dass die Teilchen bzw. Moleküle des Fluids sich unabhängiger voneiner bewegen können.\
+Im Gegensatz zu der obigen Beschreibung der Eindeutigkeits-Eigenschaft ist ein fundamentaler Aspekt turbulenter Strömungen, dass diese eben nicht eindeutig bestimmtes bzw. bestimmbares Verhalten haben, weswegen es hier im Gegenzug zu vielen anderen Problemen der Physik tatsächlich nicht zwingend sinnvoll erscheint, Eindeutigkeit von Lösungen zu erwarten. Entsprechend sollte ein mathematisches Modell hier bewusst die Möglichkeit erlauben, dass sich das System auf mehrere Weisen in der Zeit entwickelt.\
+Immerhin muss dies nicht zwingend in totalem Chaos enden, da zumindest experimentell anerkannt ist, dass gewisse statistische Größen turbulenter Strömungen in der Tat reproduzierbar sind.\
+Ein Ansatz besteht nun darin, das System als grundsätzlich deterministisch aufzufassen und Abweichungen davon in der Form von zufälligem Rauschen zu beschreiben. Dies führt auf ein Modell basierend auf stochastischen Differentialgleichungen.\
+Davon abweichend besteht ein anderer Ansatz darin, anstelle der Beschreibung einer einzelnen Lösung ein ganzes Ensemble von möglichen Lösungen oder möglichen Zuständen auf einem geeigneten Phasenraum über mögliche Wahrscheinlichkeitsverteilungen zu beschreiben. Anschließend studiert man die Evolution dieser Verteilungen in der Zeit.\
+Ein etwas loser Ansatz dieser Art kann bereits in einer Arbeit von 1950 von Hopf gefunden werden und in einem präzisen Framework  
+[1972](http://www.numdam.org/item/RSMUP_1972__48__219_0.pdf) und [1973](http://www.numdam.org/item/RSMUP_1973__49__9_0.pdf) von Foias und [1978](https://link.springer.com/article/10.1007/BF00973601) von Vishik und Fursikov für die 3D Navier-Stokes Gleichungen.\
+Basierend auf fortführendem Studium dieser statistischen Lösungen für die Navier-Stokes Gleichungen war ein Hauptbestandteil meiner Promotion die Entwicklung analoger Lösungskonzepte für die 2D Euler Gleichungen. 
+
 * [Wagner, R.,Wiedemann, E.: Statistical solutions of the two-dimensional incompressible
 Euler equations in spaces of unbounded vorticity. J. Funct. Anal. 284(4), 109777 (2023)](https://www.sciencedirect.com/science/article/abs/pii/S0022123622003974?via%3Dihub)\
-My first published article, written together with my advisor Prof. Dr. Emil Wiedemann, shows existence of statistical solutions of the 2D Euler equations under certain assumptions on the vorticity for various notions of statistical solutions.
-* [Gallenmüller, D., Wagner, R. & Wiedemann, E. Probabilistic Descriptions of Fluid
+Mein erster publizierter Fachartikel, in Zusammenarbeit mit meinem Betreuer Prof. Dr. Emil Wiedemann diskutiert und zeigt die Existenz statistischer Lösungen der 2D Euler Gleichungen unter gewissen Annahmen an die Vortizität für mehrere Begriffe statistischer Lösungen der 2D Euler Gleichungen.
+* [Gallenmüller, D., Wagner, R. & Wiedemann, E.: Probabilistic Descriptions of Fluid
 Flow: A Survey. J. Math. Fluid Mech. 25, 52 (2023)](https://link.springer.com/article/10.1007/s00021-023-00800-z)\
-My second published article, written with my advisor Prof. Dr. Emil Wiedemann and former post-doctoral researcher Dr. Dennis Gallenmüller at the Institute of Applied Analysis, discusses connections between different notions of statistical solutions, some of their relations to other concepts such as so-called measure-valued solutions, presents general strategies to show their existence and briefly discusses some open problems.
+Mein zweiter publizierter Artikel, in Zusammenarbeit mit meinem Betreuer Prof. Dr. Emil Wiedemann und ehemaligem Postdoktorand Dr. Dennis Gallenmüller am Institut für Angewandte Analysis, zeigt Verbindungen zwischen verschiedenen Begriffen statistischer Lösungen auf, sowie den Zusammenhang mit anderen Konzepten wie etwa maßwertigen Lösungen und präsentiert allgemeine Strategien um die Existenz von Lösungen zu zeigen. Zuletzt werden noch kurz offene Probleme diskutiert.
 * [R. Wagner, Vanishing of long time average p-enstrophy dissipation rate in the inviscid
 limit of the 2D damped Navier-Stokes equations, arXiv preprint, 2023](https://arxiv.org/abs/2306.05081)\
-My final article, which is currently under review for publication, generalizes and simplifies an earlier result from 2007 by Constantin and Ramos for the vanishing of long-time averages of enstrophy dissipation rate in the vanishing viscosity limit. Enstrophy is the integral of the square of the vorticity in space, thereby representing in a certain sense globally how rotational a fluid is. Note that above, the Euler and Navier-Stokes equations only differ by the viscous term $\nu\Delta u$. Viscosity generally leads to dissipation of enstrophy in time. However, what happens when one considers smaller and smaller viscosity $\nu \to 0$ ? Does the enstrophy dissipation rate also vanish? This is an important question in the Batchelor-Kraichnan theory for 2D turbulence. If there remains some kind of dissipation in the system, this is usually refereed to as anomalous (enstrophy)-dissipation.\
-Likewise to Constantin and Ramos, my article first considers long-time averages of the system to obtain a sort of stationary state and then considers the vanishing viscosity scenario, where indeed the viscous enstrophy dissipation rate vanishes as $\nu \to 0$. The preprint utilizes some nice ideas from ergodic and dynamical system theory as well as some recent results on the vanishing viscosity limit.
-
-
+Mein jüngster Artikel, welcher aktuell in der Begutachtung ist, verallgemeinert und vereinfacht ein früheres Resultat von 2007 von Constantin und Ramos über das Verschwinden von Langzeitmitteln der Enstrophiedissipationsrate im Viskositätslimes, für positive Dämpfung $\gamma > 0$.\
+Enstrophie ist das Integral über dem Raum des Quadrats der Vortizität und damit ein Größe zur Beschreibung wie rotationell das Fluid über den Raum verteilt ist.\
+Die Navier-Stokes und Euler Gleichungen oben unterscheiden sich lediglich durch den Viskositätsterm $\nu\Delta u$. Viskosität führt generell zu Dissipation von Enstrophie über die Zeit hinweg. Was passiert nun, wenn wir immer kleiner werdende Viskosität betrachten $(\nu \to 0)$? Wird auch die Rate der Enstrophiedissipation durch viskose Effekte immer kleiner und nähert sich $0$ an? Dies ist eine wichtige Frage in der Batchelor-Kraichnan Theorie von 2D Turbulenz. Falls eine Art Dissipation im System bestehen bleibt, nennt man dies typischerweise anomale Enstrophie-Dissipation.\
+Wie bei Constantin und Ramos betrach ich in meinem Artikel zunächst Langzeitmittel des Systems um eine Art stationären Zustand zu erreichen und betrachte im Anschluss den Viskositätslimes $(\nu \to 0)$. Im Artikel benutze  ich dann ein paar nette Ideen aus der Ergodentheorie und der Theorie dynamischer Systeme sowie ein paar jüngere Resultate über den Viskositätslimes. 
 
 
 [^1]: Cheynet, E. Wind Field Simulation (the Fast Version). Zenodo, 2020, doi:10.5281/ZENODO.3774136

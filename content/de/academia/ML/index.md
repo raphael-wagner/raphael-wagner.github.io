@@ -10,7 +10,7 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: Ein kurzer Umriss gewisser Aspekte der Mathematik maschinellen Lernens, welcher mich interessiert. Als Beispiel beschreibe ich ein paar Details zur Theorie der Reproducing Kernel Hilbert Spaces und der damit verbundenen Ridge-Regression.
+summary: Ein kurzer Umriss gewisser Aspekte der Mathematik maschinellen Lernens, welche mich interessieren. Als Beispiel beschreibe ich ein paar Details zur Theorie der Reproducing Kernel Hilbert Spaces und der damit verbundenen Ridge-Regression.
 tags:
 - Maschinelles Lernen
 title: Maschinelles Lernen
@@ -113,7 +113,7 @@ wobei $c > 0$ ein Regularisierungsparameter und $\|f\|_H = \sqrt{\langle f,f\ran
 wobei $d(z_1,z_2) := \|K(z_1,\cdot)-K(z_2,\cdot)\|_H$ als Distanz zwischen $z_1$ und $z_2$ aufgefasst werden kann. Diese Lipschitzstetigkeit bedeutet, dass die Steigung von $f$ beschränkt ist durch $\|f\|_H$. Daher, durch Hinzufügen dieses Terms zu unserer Verlustfunktion, welche wir minimieren wollen, wir der Overfitting-Problem entgegen wirken. Die folgende Skizze illustriert dies. Die Beziehung zwischen einem Input $x$ und dem label $y$ wirkt linear (evtl. mit leichter Krümmung). Allerdings trifft die orangene Kurve die Datenpunkte perfekt, während die Verlustfunktion für die lineare Kurve in grün positiv wäre.\
 Dabei ist allerdings zu beachten, dass die orangene Kurve eine recht große Steigung an gewissen Stellen aufweist, um alle Punkte perfekt zu treffen. Durch Hinzufügen des Regularisierungsterms zur Verlustfunktion, wird diese aber auch wie gewünscht groß für die orangene Kurve, wodurch das lineare Modell eventuell mehr evorzugt wird.
 
-![image](overfitting.jpg "Overfitting der Traingsdaten")
+![image](overfitting.jpg "Overfitting der Trainingsdaten")
 
 Im allgemeinen kann es sehr schwierig bis hin zu unmöglich sein, den RKHS zu einem Kern $K$ zu bestimmen. Daher, selbst wenn sich das Minimierungsproblem in dem RKHS $H$ elegant lösen lässt , die Frage berechtigt, was der praktische Nutzen davon ist, wenn $H$ nicht explizit bekannt ist. Hier hilft erneu die abstrakte Theorie der RKHS, welche mittels des [Representer Theorems](https://en.wikipedia.org/wiki/Representer_theorem) folgendes aussagt:
 

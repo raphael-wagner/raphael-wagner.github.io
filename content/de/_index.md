@@ -68,30 +68,28 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: Ulm University, Institute of Applied Analysis
+    - company: Universität Ulm, Institut für Angewandte Analysis
       company_logo: 
       company_url: "https://www.uni-ulm.de/en/mawi/iaa/"
       date_end: ""
       date_start: "2020-09-01"
       description: |2-
-          Responsibilities include:
-
-          * Creating weekly assignment sheets and final exams, administering the grading thereof and presenting the corresponding solutions in an auditorium.
-          * Organizing recitations for one or two classes each semester.
+          Aufgaben beinhalten:
+          * Organisation des Übungsbetriebes für ein oder zwei Veranstaltungen pro Semester, d.h. Erstellung von Übungsblättern, Organisation der Korrektur und der Tutorien und Besprechung der Lösungen im Auditorium.
+          * Mithilfe bei der Erstellung und Durchführung von Klausuren und mündlichen Prüfungen.
       location: Ulm, DE
-      title: Scientific Assistant
+      title: Wissenschaftlicher Angestellter
     - company: Kistler Chemnitz GmbH (formerly AMS GmbH)
       company_logo: 
       company_url: "https://www.kistler.com/DE/en/c/kidaq-data-acquisition-system/CG21-kidaq-data-acquisition-system?utm_source=google-ads&utm_medium=cpc&utm_campaign=&utm_agid=153539725578&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBl-W9JaaeaA6yRJcEX-tRUHqsoFC7S7NyHpltCRZlRpHp1M0_tajxRoCMfIQAvD_BwE"
       date_end: "2018-01-31"
       date_start: "2017-07-01"
       description: |2-
-      
-          * The AMS GmbH was specialized in developing software for the   analysis and management of measurement data - the company has been acquired in December 2018 by the Kistler Group, a global leader in dynamic measurement technology.
-          * Created a specific component for a customer within the company’s framework jBeam that determines optimal machine parameters based on entered test data.
+          * Die AMS GmbH war spezialisiert auf die Entwicklung von Softwarelösungen für die Auswertung und Verwaltung von Messdaten - Die Firma wurde im Dezember 2018 von der Kistler Group, einem globalen Führer im Bereich dynamischer Messsysteme. 
+          * Ich habe eine Komponente für einen Kunden innerhalb des Frameworks jBeam der AMS GmbH entwickelt, welches optimale Maschinenparameter berechnet hat auf Basis von eingegeben Testdaten.
           
       location: Chemnitz, DE
-      title: Intern as a Java software developer
+      title: Praktikum als Java Softwareentwickler
     title: Berufserfahrung
   design:
     columns: "2"

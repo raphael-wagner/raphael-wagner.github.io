@@ -75,9 +75,8 @@ sections:
       date_start: "2020-09-01"
       description: |2-
           Responsibilities include:
-
-          * Creating weekly assignment sheets and final exams, administering the grading thereof and presenting the corresponding solutions in an auditorium.
-          * Organizing recitations for one or two classes each semester.
+          * Organization of the exercises for one or two classes each Semester, i.e., creating weekly assignment sheets, administering the grading thereof as well as the recitations and presenting the corresponding solutions in an auditorium.
+          * Participation in the process of creating and conducting both written and oral exams. 
       location: Ulm, DE
       title: Scientific Assistant
     - company: Kistler Chemnitz GmbH (formerly AMS GmbH)
