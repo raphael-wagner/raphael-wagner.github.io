@@ -78,14 +78,14 @@ sections:
           * Organisation des Übungsbetriebes für ein oder zwei Veranstaltungen pro Semester, d.h. Erstellung von Übungsblättern, Organisation der Korrektur und der Tutorien und Besprechung der Lösungen im Auditorium.
           * Mithilfe bei der Erstellung und Durchführung von Klausuren und mündlichen Prüfungen.
       location: Ulm, DE
-      title: Wissenschaftlicher Angestellter
+      title: Akademischer Angestellter
     - company: Kistler Chemnitz GmbH (formerly AMS GmbH)
       company_logo: 
       company_url: "https://www.kistler.com/DE/en/c/kidaq-data-acquisition-system/CG21-kidaq-data-acquisition-system?utm_source=google-ads&utm_medium=cpc&utm_campaign=&utm_agid=153539725578&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBl-W9JaaeaA6yRJcEX-tRUHqsoFC7S7NyHpltCRZlRpHp1M0_tajxRoCMfIQAvD_BwE"
       date_end: "2018-01-31"
       date_start: "2017-07-01"
       description: |2-
-          * Die AMS GmbH war spezialisiert auf die Entwicklung von Softwarelösungen für die Auswertung und Verwaltung von Messdaten - Die Firma wurde im Dezember 2018 von der Kistler Group, einem globalen Führer im Bereich dynamischer Messsysteme. 
+          * Die AMS GmbH war spezialisiert auf die Entwicklung von Softwarelösungen zur Auswertung und Verwaltung von Messdaten. Die Firma wurde im Dezember 2018 von der Kistler Group übernommen, einem globalen Führer im Bereich dynamischer Messsysteme. 
           * Ich habe eine Komponente für einen Kunden innerhalb des Frameworks jBeam der AMS GmbH entwickelt, welches optimale Maschinenparameter berechnet hat auf Basis von eingegeben Testdaten.
           
       location: Chemnitz, DE

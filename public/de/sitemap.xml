@@ -2,382 +2,422 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://raphael-wagner.github.io/de/post/blog-with-jupyter/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/post/blog-with-jupyter/</loc>
     <lastmod>2023-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/post/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/post/</loc>
     <lastmod>2023-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/post/"
+                href="https://raphael-wagner.netlify.app/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/post/"
+                href="https://raphael-wagner.netlify.app/de/post/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/academia/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/academia/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/academia/"
+                href="https://raphael-wagner.netlify.app/academia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/academia/"
+                href="https://raphael-wagner.netlify.app/de/academia/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tags/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/lehre/</loc>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://raphael-wagner.netlify.app/de/academia/teaching/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/tags/"
+                href="https://raphael-wagner.netlify.app/academia/teaching/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/tags/"
+                href="https://raphael-wagner.netlify.app/de/academia/teaching/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tag/teaching/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tags/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/tag/teaching/"
+                href="https://raphael-wagner.netlify.app/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/tag/teaching/"
+                href="https://raphael-wagner.netlify.app/de/tags/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/academia/teaching/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://raphael-wagner.github.io/academia/teaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://raphael-wagner.github.io/de/academia/teaching/"
-                />
-  </url><url>
-    <loc>https://raphael-wagner.github.io/de/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/"
+                href="https://raphael-wagner.netlify.app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/"
+                href="https://raphael-wagner.netlify.app/de/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tag/academic/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/categories/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/categories/"
+                href="https://raphael-wagner.netlify.app/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/categories/"
+                href="https://raphael-wagner.netlify.app/de/categories/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/category/demo/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/post/getting-started/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tag/%E5%BC%80%E6%BA%90/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/category/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/post/writing-technical-content/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication/preprint/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication/preprint/"
+                href="https://raphael-wagner.netlify.app/publication/preprint/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication/preprint/"
+                href="https://raphael-wagner.netlify.app/de/publication/preprint/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication-type/article/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/publication-type/article/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication-type/article/"
+                href="https://raphael-wagner.netlify.app/publication-type/article/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication-type/article/"
+                href="https://raphael-wagner.netlify.app/de/publication-type/article/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication_types/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication_types/"
+                href="https://raphael-wagner.netlify.app/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication_types/"
+                href="https://raphael-wagner.netlify.app/de/publication_types/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication/"
+                href="https://raphael-wagner.netlify.app/publication/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication/"
+                href="https://raphael-wagner.netlify.app/de/publication/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tag/source-themes/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/tag/source-themes/"
+                href="https://raphael-wagner.netlify.app/tag/source-themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/tag/source-themes/"
+                href="https://raphael-wagner.netlify.app/de/tag/source-themes/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/slides/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/slides/"
+                href="https://raphael-wagner.netlify.app/slides/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/slides/"
+                href="https://raphael-wagner.netlify.app/de/slides/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/slides/example/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/slides/example/"
+                href="https://raphael-wagner.netlify.app/slides/example/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/slides/example/"
+                href="https://raphael-wagner.netlify.app/de/slides/example/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tag/deep-learning/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/tag/deep-learning/"
+                href="https://raphael-wagner.netlify.app/tag/deep-learning/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/tag/deep-learning/"
+                href="https://raphael-wagner.netlify.app/de/tag/deep-learning/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tag/demo/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/tag/demo/"
+                href="https://raphael-wagner.netlify.app/tag/demo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/tag/demo/"
+                href="https://raphael-wagner.netlify.app/de/tag/demo/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/project/example/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/project/example/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/project/example/"
+                href="https://raphael-wagner.netlify.app/project/example/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/project/example/"
+                href="https://raphael-wagner.netlify.app/de/project/example/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/project/external-project/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/project/external-project/"
+                href="https://raphael-wagner.netlify.app/project/external-project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/project/external-project/"
+                href="https://raphael-wagner.netlify.app/de/project/external-project/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/project/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/forschung/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://raphael-wagner.netlify.app/de/academia/research/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/project/"
+                href="https://raphael-wagner.netlify.app/academia/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/project/"
+                href="https://raphael-wagner.netlify.app/de/academia/research/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/tag/research/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/maschinelles-lernen/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://raphael-wagner.netlify.app/de/academia/ml/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/tag/research/"
+                href="https://raphael-wagner.netlify.app/academia/ml/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/tag/research/"
+                href="https://raphael-wagner.netlify.app/de/academia/ml/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/academia/research/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/other/ml/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/academia/research/"
+                href="https://raphael-wagner.netlify.app/other/ml/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/academia/research/"
+                href="https://raphael-wagner.netlify.app/de/other/ml/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication/journal-article/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/tag/ml/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://raphael-wagner.netlify.app/tag/ml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://raphael-wagner.netlify.app/de/tag/ml/"
+                />
+  </url><url>
+    <loc>https://raphael-wagner.netlify.app/de/other/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://raphael-wagner.netlify.app/other/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://raphael-wagner.netlify.app/de/other/"
+                />
+  </url><url>
+    <loc>https://raphael-wagner.netlify.app/de/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://raphael-wagner.netlify.app/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://raphael-wagner.netlify.app/de/project/"
+                />
+  </url><url>
+    <loc>https://raphael-wagner.netlify.app/de/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication/journal-article/"
+                href="https://raphael-wagner.netlify.app/publication/journal-article/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication/journal-article/"
+                href="https://raphael-wagner.netlify.app/de/publication/journal-article/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication-type/article-journal/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/publication-type/article-journal/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication-type/article-journal/"
+                href="https://raphael-wagner.netlify.app/publication-type/article-journal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication-type/article-journal/"
+                href="https://raphael-wagner.netlify.app/de/publication-type/article-journal/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication/conference-paper/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication/conference-paper/"
+                href="https://raphael-wagner.netlify.app/publication/conference-paper/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication/conference-paper/"
+                href="https://raphael-wagner.netlify.app/de/publication/conference-paper/"
                 />
   </url><url>
-    <loc>https://raphael-wagner.github.io/de/publication-type/paper-conference/</loc>
+    <loc>https://raphael-wagner.netlify.app/de/publication-type/paper-conference/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://raphael-wagner.github.io/publication-type/paper-conference/"
+                href="https://raphael-wagner.netlify.app/publication-type/paper-conference/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://raphael-wagner.github.io/de/publication-type/paper-conference/"
+                href="https://raphael-wagner.netlify.app/de/publication-type/paper-conference/"
                 />
   </url>
 </urlset>

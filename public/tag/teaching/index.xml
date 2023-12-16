@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching | Raphael Wagner</title>
-    <link>https://raphael-wagner.github.io/tag/teaching/</link>
-      <atom:link href="https://raphael-wagner.github.io/tag/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://raphael-wagner.netlify.app/tag/teaching/</link>
+      <atom:link href="https://raphael-wagner.netlify.app/tag/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teaching</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://raphael-wagner.github.io/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
+      <url>https://raphael-wagner.netlify.app/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
       <title>Teaching</title>
-      <link>https://raphael-wagner.github.io/tag/teaching/</link>
+      <link>https://raphael-wagner.netlify.app/tag/teaching/</link>
     </image>
     
     <item>
       <title>Teaching</title>
-      <link>https://raphael-wagner.github.io/academia/teaching/</link>
+      <link>https://raphael-wagner.netlify.app/academia/teaching/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://raphael-wagner.github.io/academia/teaching/</guid>
+      <guid>https://raphael-wagner.netlify.app/academia/teaching/</guid>
       <description>&lt;p&gt;From my third semester as a student at Ulm University on, I was tutoring and grading undergraduate students in math and computer science programmes. The classes mostly involved the fundamentals of mathematics such as analysis and linear algebra.&lt;/p&gt;
 &lt;p&gt;
 
@@ -40,7 +40,7 @@
                /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp 400w,
                /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_17f35835c1105d1791f471f171bf1d87.webp 760w,
                /academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://raphael-wagner.github.io/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp&#34;
+               src=&#34;https://raphael-wagner.netlify.app/academia/teaching/LA_Analysis_huaf2fc3b8a14810c73045d8c12286e060_3185594_531335d2baa3a56b0d6f15fd923ff7b5.webp&#34;
                width=&#34;760&#34;
                height=&#34;379&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -77,8 +77,8 @@
   
   
   &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
-    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01.jpg&#34; &gt;
-      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse01_hu4b236bb8c932d5ca11d05ac2e8d759d5_366692_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse01.jpg&#34; width=&#34;563&#34; height=&#34;750&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.netlify.app/media/albums/syracuse/syracuse01.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.netlify.app/media/albums/syracuse/syracuse01_hu4b236bb8c932d5ca11d05ac2e8d759d5_366692_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse01.jpg&#34; width=&#34;563&#34; height=&#34;750&#34;&gt;
     &lt;/a&gt;
   &lt;/div&gt;
   
@@ -90,8 +90,8 @@
   
   
   &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
-    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02.jpg&#34; &gt;
-      &lt;img src=&#34;https://raphael-wagner.github.io/media/albums/syracuse/syracuse02_hu7cc9c0e071d596f68c86c305ffea5521_225370_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse02.jpg&#34; width=&#34;750&#34; height=&#34;563&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-syracuse&#34; href=&#34;https://raphael-wagner.netlify.app/media/albums/syracuse/syracuse02.jpg&#34; &gt;
+      &lt;img src=&#34;https://raphael-wagner.netlify.app/media/albums/syracuse/syracuse02_hu7cc9c0e071d596f68c86c305ffea5521_225370_750x750_fit_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;syracuse02.jpg&#34; width=&#34;750&#34; height=&#34;563&#34;&gt;
     &lt;/a&gt;
   &lt;/div&gt;
   

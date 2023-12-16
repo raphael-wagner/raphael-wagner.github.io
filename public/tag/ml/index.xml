@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ML | Raphael Wagner</title>
-    <link>https://raphael-wagner.github.io/tag/ml/</link>
-      <atom:link href="https://raphael-wagner.github.io/tag/ml/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://raphael-wagner.netlify.app/tag/ml/</link>
+      <atom:link href="https://raphael-wagner.netlify.app/tag/ml/index.xml" rel="self" type="application/rss+xml" />
     <description>ML</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://raphael-wagner.github.io/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
+      <url>https://raphael-wagner.netlify.app/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
       <title>ML</title>
-      <link>https://raphael-wagner.github.io/tag/ml/</link>
+      <link>https://raphael-wagner.netlify.app/tag/ml/</link>
     </image>
     
     <item>
       <title>Mathematics of machine learning</title>
-      <link>https://raphael-wagner.github.io/other/ml/</link>
+      <link>https://raphael-wagner.netlify.app/other/ml/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://raphael-wagner.github.io/other/ml/</guid>
+      <guid>https://raphael-wagner.netlify.app/other/ml/</guid>
       <description>&lt;p&gt;I first came across the subject of machine learning in a graduate level course on pattern recognition as part of my minor in computer science.
 The area focuses on the development of processes and algorithms which enable computers to learn a task from experience measured by some performance measure. In particular, the way a task will be performed by a trained machine learning algorithm is not hard coded. In fact, for complex models such as deep neural networks, it appears to be difficult to extract rules by which the model has learned and by which it operates.&lt;/p&gt;
 &lt;p&gt;By now, most academics I believe have heard or come across this subject of machine learning due to the broad spectrum of tasks for which there are machine learning methods available (supervised problems: classification, regression, &amp;hellip; and unsupervised problems: clustering and anomaly detection) and its vast success in different areas, e.g., detecting credit card fraud in bank statements or brain tumors in scans.
@@ -58,7 +58,7 @@ $$ f^* := \underset{f \in H}{\operatorname{argmin}} L(f). $$&lt;/p&gt;
                /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp 400w,
                /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_dd1c8d2ca012c7e3e2ae0e0cd4b1a8aa.webp 760w,
                /other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://raphael-wagner.github.io/other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp&#34;
+               src=&#34;https://raphael-wagner.netlify.app/other/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp&#34;
                width=&#34;487&#34;
                height=&#34;347&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -115,7 +115,7 @@ which is not linearly but quadratically separable in the sense that for $y = f(x
                /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp 400w,
                /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_bdf7edae1f7a55bc03b0a131a225f0be.webp 760w,
                /other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://raphael-wagner.github.io/other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp&#34;
+               src=&#34;https://raphael-wagner.netlify.app/other/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp&#34;
                width=&#34;545&#34;
                height=&#34;201&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -146,7 +146,7 @@ which is not linearly but quadratically separable in the sense that for $y = f(x
                /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp 400w,
                /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_78e6e402960b24510fa30fcce68c584a.webp 760w,
                /other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://raphael-wagner.github.io/other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp&#34;
+               src=&#34;https://raphael-wagner.netlify.app/other/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp&#34;
                width=&#34;565&#34;
                height=&#34;469&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -199,7 +199,7 @@ for some coefficients $\lambda_1,&amp;hellip;,\lambda_n \in \mathbb{R}^n$.&lt;/p
                /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_ec6d0dec75b6ec109507b5a8307dbaea.webp 400w,
                /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_b2252562843d88c07ec7b249ebf3f722.webp 760w,
                /other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://raphael-wagner.github.io/other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_ec6d0dec75b6ec109507b5a8307dbaea.webp&#34;
+               src=&#34;https://raphael-wagner.netlify.app/other/ml/diagram_RKHS_hu42b0d2d8888e1081388ec10cae37778a_65290_ec6d0dec75b6ec109507b5a8307dbaea.webp&#34;
                width=&#34;760&#34;
                height=&#34;292&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -254,7 +254,7 @@ for some coefficients $\lambda_1,&amp;hellip;,\lambda_n \in \mathbb{R}^n$.&lt;/p
                /other/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_35af086aceddd76e13bb89981be66b2f.webp 400w,
                /other/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_50a1299c6152702312cacbb8d9a93427.webp 760w,
                /other/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://raphael-wagner.github.io/other/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_35af086aceddd76e13bb89981be66b2f.webp&#34;
+               src=&#34;https://raphael-wagner.netlify.app/other/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_35af086aceddd76e13bb89981be66b2f.webp&#34;
                width=&#34;579&#34;
                height=&#34;453&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -304,7 +304,7 @@ for some coefficients $\lambda_1,&amp;hellip;,\lambda_n \in \mathbb{R}^n$.&lt;/p
                /other/ml/ridge_reg_files/ridge_reg_1_1_hu222d87f8b2ee745a41a6e1165d923e59_37185_0292cf79309bfe060d717eac35242bf9.webp 400w,
                /other/ml/ridge_reg_files/ridge_reg_1_1_hu222d87f8b2ee745a41a6e1165d923e59_37185_1846792480e5428e225ff1a3d5d0b775.webp 760w,
                /other/ml/ridge_reg_files/ridge_reg_1_1_hu222d87f8b2ee745a41a6e1165d923e59_37185_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://raphael-wagner.github.io/other/ml/ridge_reg_files/ridge_reg_1_1_hu222d87f8b2ee745a41a6e1165d923e59_37185_0292cf79309bfe060d717eac35242bf9.webp&#34;
+               src=&#34;https://raphael-wagner.netlify.app/other/ml/ridge_reg_files/ridge_reg_1_1_hu222d87f8b2ee745a41a6e1165d923e59_37185_0292cf79309bfe060d717eac35242bf9.webp&#34;
                width=&#34;579&#34;
                height=&#34;453&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

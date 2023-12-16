@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: December 13, 2023 --><html lang="en-us" >
+<!-- Last Published: December 16, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -284,10 +284,10 @@
 
 
 
-  <link rel="alternate" hreflang="de" href="https://raphael-wagner.github.io/de/academia/research/" />
+  <link rel="alternate" hreflang="de" href="https://raphael-wagner.netlify.app/de/academia/research/" />
 
-<link rel="alternate" hreflang="en-us" href="https://raphael-wagner.github.io/academia/research/" />
-<link rel="canonical" href="https://raphael-wagner.github.io/academia/research/" />
+<link rel="alternate" hreflang="en-us" href="https://raphael-wagner.netlify.app/academia/research/" />
+<link rel="canonical" href="https://raphael-wagner.netlify.app/academia/research/" />
 
 
 
@@ -320,7 +320,7 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://raphael-wagner.github.io/academia/research/featured.gif" />
+<meta property="twitter:image" content="https://raphael-wagner.netlify.app/academia/research/featured.gif" />
 
 
 
@@ -328,9 +328,9 @@
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Raphael Wagner" />
-<meta property="og:url" content="https://raphael-wagner.github.io/academia/research/" />
+<meta property="og:url" content="https://raphael-wagner.netlify.app/academia/research/" />
 <meta property="og:title" content="Research | Raphael Wagner" />
-<meta property="og:description" content="A brief description of my research in mathematical fluid mechanics, conducted at the Institute of Applied Analysis at Ulm University during my time as a doctoral candidate." /><meta property="og:image" content="https://raphael-wagner.github.io/academia/research/featured.gif" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="A brief description of my research in mathematical fluid mechanics, conducted at the Institute of Applied Analysis at Ulm University during my time as a doctoral candidate." /><meta property="og:image" content="https://raphael-wagner.netlify.app/academia/research/featured.gif" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -660,7 +660,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/uploads/resume_wagner.pdf"><span>Resume</span></a>
+            <a class="nav-link " href="/uploads/CV_Wagner_%28general%29.pdf"><span>Resume</span></a>
           </li>
 
           
@@ -719,7 +719,7 @@
               <span>English</span>
             </div>
             
-            <a class="dropdown-item" href="https://raphael-wagner.github.io/de/academia/research/">
+            <a class="dropdown-item" href="https://raphael-wagner.netlify.app/de/academia/research/">
               <span>Deutsch</span>
             </a>
             
@@ -829,7 +829,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>In my research, I study statistical notions of solutions for certain equations in mathematical fluids mechanics. While the development of this theory tends to be quite abstract, some motivation comes from studying and experimenting with turbulent flows. Indeed, it is a longstanding and widely accepted view in turbulence theory that turbulent flows are more accurately described by probabilistic and statistical models than by purely deterministic considerations. Indeed, one of the fundamental aspects of a turbulence flow is the difficulty in the precise prediction of its behavior.<br>
+      <p>In my research, I study statistical notions of solutions for certain equations in mathematical fluids mechanics. While the development of this theory tends to be quite abstract, some motivation comes from studying and experimenting with turbulent flows. Indeed, it is a longstanding and widely accepted view in turbulence theory that turbulent flows are more accurately described by probabilistic and statistical rather than purely deterministic models. Indeed, one of the fundamental aspects of a turbulent flow is the difficulty in the precise prediction of its behavior.<br>
 Therefore, in the applied sciences, models of turbulent flows typically have a stochastic component and consider averages of the quantities in the governing mathematical equations.<br>
 Below you can see two signals using the same parameters, produced by a Matlab implementation by E. Cheynet<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> of the <a href="https://en.wikipedia.org/wiki/Von_K%C3%A1rm%C3%A1n_wind_turbulence_model" target="_blank" rel="noopener">von Kármán wind turbulence model</a>, which is based on the Reynolds-averaged Navier-Stokes (RANS) equations. This model has proven to provide a fairly accurate basis for the description of wind turbulence.</p>
 <p>
@@ -907,7 +907,7 @@ Below you can see two signals using the same parameters, produced by a Matlab im
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>Alternative and probabilistic approaches to the models and equations from fluid mechanics also stem from the fact that existence of a unique, physically relevant solution for these equations is often unknown. In fact, one the 1 Mio. $ prize <a href="https://www.claymath.org/millennium-problems/" target="_blank" rel="noopener">Millenium prize problems</a> focuses around this issue.</p>
+<p>Alternative and probabilistic approaches to the models and equations from fluid mechanics also stem from the fact that existence of a unique, physically relevant solution for these equations is often unknown. In fact, one of the 1 Mil. $ <a href="https://www.claymath.org/millennium-problems/" target="_blank" rel="noopener">Millenium prize problems</a> focuses around this issue.</p>
 <p>In the following section, I will describe a little bit more in depth what my research area is about and what problems I considered in my articles and preprints.</p>
 <p>In my research, I primarily consider the incompressible Euler
 $$
@@ -931,15 +931,16 @@ formulated here in velocity $u \colon (0,T) \times \Omega \to \mathbb{R}^d$ with
 Both equations are fundamental equations in fluid mechanics, yet mathematically, many standard questions in the theory of partial differential equations such as <em>existence</em>, <em>uniqueness</em>, and <em>regularity</em> are still open. Let me first explain what these properties mean and then point out a small selection of the currently open issues related to these.</p>
 <ul>
 <li>Existence: For any initial state of the fluid and other fixed parameters such as boundary data, we would like there to exist a solution to these fluid equations which describes the fluid at any later time. After all, we describe a physical problem and would expect such solutions to exist.<br>
-Existence of (weak) solutions for the 3D Navier-Stokes equations has been known since the work of Leray in 1934. For the 2D Euler equations, many general existence results for weak solutions have been obtained in the past 15 years using the <a href="https://annals.math.princeton.edu/2009/170-3/p09" target="_blank" rel="noopener">convex integration</a> machinery by De Lellis and Székelyhidi Jr.</li>
-<li>Uniqueness: Ideally, such a solution to these equations should also be unique. After all, if all the data is fixed, we would intuitively expect that the behavior of the fluid is deterministic, rather than having to deal with the possibility of the fluid behaving (at random) in different ways.<br>
-Just in the past year, however, <a href="https://projecteuclid.org/journals/annals-of-mathematics/volume-196/issue-1/Non-uniqueness-of-Leray-solutions-of-the-forced-Navier-Stokes/10.4007/annals.2022.196.1.3.full" target="_blank" rel="noopener">Albritton, Brué and Colombo</a> proved that for a certain external force $f$, the Leray-solutions are in fact non-unique. Moreover, the convex integration solutions for the 2D Euler equations are vastly non-unique, in fact, this technique yields infinitely many solutions for any given initial state. To resolve this issue, it is an ongoing task to find further conditions, which single out <em>physical</em> solutions.</li>
-<li>Regularity means that in a certain way, if the data has nice properties, which correspond to real physical fluids, then the solutions at least maintain that regularity.<br>
-In constrast to the previously mentioned weak solution, regular solutions are unique. However, it is generally unknown if regular initial data yields regular solutions globally in time for the 3D Navier-Stokes equations. If this was false, it would mean that a nice initial state of the fluid could in time develop singularities, meaning that the fluid has infinite velocity at certain points in space in time. While physically, this is impossible, precise mathematical analysis of the Navier-Stokes equations has still not ruled this out. This is in fact one the <a href="https://www.claymath.org/millennium-problems/" target="_blank" rel="noopener">Millenium prize problems</a> by the Clay Mathematics Institute, deemed to be one of the most important open mathematical problems with a $1 Million prize. The problem is likewise open for the 3D Euler equations.</li>
+Existence of (weak) solutions for the 3D Navier-Stokes equations has been known since the work of Leray in 1934. For the 2D Euler equations, many general existence results for weak solutions have been obtained in the past 15 years using the <a href="https://annals.math.princeton.edu/2009/170-3/p09" target="_blank" rel="noopener">convex integration</a> machinery by De Lellis and Székelyhidi Jr.<br>
+Existence of physically relevant solutions on any time interval, however, is generally still unknown. I will further elaborate on this in the explanation on <em>regularity</em>.</li>
+<li>Uniqueness: Ideally, such a solution should also be unique. After all, if all the data is fixed, we would intuitively expect that the behavior of the fluid is deterministic, rather than having to deal with the possibility of the fluid behaving (at random) in different ways.<br>
+Just in the past year, however, <a href="https://projecteuclid.org/journals/annals-of-mathematics/volume-196/issue-1/Non-uniqueness-of-Leray-solutions-of-the-forced-Navier-Stokes/10.4007/annals.2022.196.1.3.full" target="_blank" rel="noopener">Albritton, Brué and Colombo</a> proved that for a certain external force $f$, the Leray-solutions are in fact non-unique. Moreover, the convex integration solutions for the 2D Euler equations are vastly non-unique, in fact, this technique yields infinitely many solutions for any given initial state. To resolve this issue, it is an ongoing task to find further conditions which single out <em>physical</em> solutions.</li>
+<li>Regularity means that in a certain way, if the data has nice properties which correspond to real physical fluids, then the solutions at least maintains that regularity.<br>
+In contrast to the previously mentioned weak solutions, regular solutions are unique. However, it is generally unknown if regular initial data yields regular solutions globally in time for the 3D Navier-Stokes equations. If this was false, it would mean that a nice initial state of the fluid could in time develop singularities, meaning that the fluid has infinite velocity at certain points in space in time. While physically, this is impossible, precise mathematical analysis of the Navier-Stokes equations has still not ruled this out. This is precisely one of the <a href="https://www.claymath.org/millennium-problems/" target="_blank" rel="noopener">Millenium prize problems</a> by the Clay Mathematics Institute, deemed to be one of the most important open mathematical problems with a 1 Mil. $ prize. The problem is likewise open for the 3D Euler equations.</li>
 </ul>
-<p>The Euler equations or Navier-Stokes equations with very small viscosity $\nu &gt; 0$ (or high Reynolds number) are generally associated to turbulent fluid flows as this translates to fluid particles being able to move more independently from one another.<br>
-In contrast to our description above of uniqueness, one aspect of turbulent fluids is their unpredictable behavior, whereby it may be unreasonable to expect unique solutions. Rather, one should allow for the possibility of the system potentially evolving in different ways.<br>
-This is not too bad since at least experimentally, it is widely accepted that certain statistical properties of turbulent fluids are in fact reproducible, whereby a probabilistic or statistical solution concept may be accurate and more natural.<br>
+<p>The Euler equations or the Navier-Stokes equations with very small viscosity $\nu &gt; 0$ (or high Reynolds number) are generally associated to turbulent fluid flows as this translates to fluid particles being able to move more independently from one another.<br>
+In contrast to our description above of uniqueness, one aspect of turbulent fluids is their unpredictable behavior, whereby it may be unreasonable to expect unique solutions in contrast to many other equations from physics. Rather, one should allow for the possibility of the system potentially evolving in different ways.<br>
+This is not too bad since at least experimentally, it is widely accepted that certain statistical properties of turbulent fluids are in fact reproducible, whereby a probabilistic or statistical solution concept may actually be accurate and more natural.<br>
 One approach would be to assume that the system is in fact described by a deterministic component plus some noise, which leads to a model based on stochastic differential equations.<br>
 Somewhat differently, rather than trying to describe single, individual solutions, another approach is to describe a whole ensemble of solutions or possible states of the system by a probability distribution on an appropriate phase space. Then, one studies the evolution in time of these distributions. This latter approach can somewhat loosely be found in work by Hopf in 1950 and in a precise framework from <a href="http://www.numdam.org/item/RSMUP_1972__48__219_0.pdf" target="_blank" rel="noopener">1972</a> and <a href="http://www.numdam.org/item/RSMUP_1973__49__9_0.pdf" target="_blank" rel="noopener">1973</a> by Foias and in <a href="https://link.springer.com/article/10.1007/BF00973601" target="_blank" rel="noopener">1978</a> by Vishik and Fursikov for the 3D Navier-Stokes equations.<br>
 Based on further study of these statistical solutions of the Navier-Stokes equations, the main subject of my doctoral studies involved the development of analogous notions of statistical solutions for the 2D Euler equations.</p>
@@ -947,12 +948,12 @@ Based on further study of these statistical solutions of the Navier-Stokes equat
 <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0022123622003974?via%3Dihub" target="_blank" rel="noopener">Wagner, R.,Wiedemann, E.: Statistical solutions of the two-dimensional incompressible
 Euler equations in spaces of unbounded vorticity. J. Funct. Anal. 284(4), 109777 (2023)</a><br>
 My first published article, written together with my advisor Prof. Dr. Emil Wiedemann, shows existence of statistical solutions of the 2D Euler equations under certain assumptions on the vorticity for various notions of statistical solutions.</li>
-<li><a href="https://link.springer.com/article/10.1007/s00021-023-00800-z" target="_blank" rel="noopener">Gallenmüller, D., Wagner, R. &amp; Wiedemann, E. Probabilistic Descriptions of Fluid
+<li><a href="https://link.springer.com/article/10.1007/s00021-023-00800-z" target="_blank" rel="noopener">Gallenmüller, D., Wagner, R. &amp; Wiedemann, E.: Probabilistic Descriptions of Fluid
 Flow: A Survey. J. Math. Fluid Mech. 25, 52 (2023)</a><br>
 My second published article, written with my advisor Prof. Dr. Emil Wiedemann and former post-doctoral researcher Dr. Dennis Gallenmüller at the Institute of Applied Analysis, discusses connections between different notions of statistical solutions, some of their relations to other concepts such as so-called measure-valued solutions, presents general strategies to show their existence and briefly discusses some open problems.</li>
 <li><a href="https://arxiv.org/abs/2306.05081" target="_blank" rel="noopener">R. Wagner, Vanishing of long time average p-enstrophy dissipation rate in the inviscid
 limit of the 2D damped Navier-Stokes equations, arXiv preprint, 2023</a><br>
-My final article, which is currently under review for publication, generalizes and simplifies an earlier result from 2007 by Constantin and Ramos for the vanishing of long-time averages of enstrophy dissipation rate in the vanishing viscosity limit. Enstrophy is the integral of the square of the vorticity in space, thereby representing in a certain sense globally how rotational a fluid is. Note that above, the Euler and Navier-Stokes equations only differ by the viscous term $\nu\Delta u$. Viscosity generally leads to dissipation of enstrophy in time. However, what happens when one considers smaller and smaller viscosity $\nu \to 0$ ? Does the enstrophy dissipation rate also vanish? This is an important question in the Batchelor-Kraichnan theory for 2D turbulence. If there remains some kind of dissipation in the system, this is usually refereed to as anomalous (enstrophy)-dissipation.<br>
+My final article, which is currently under review for publication, generalizes and simplifies an earlier result from 2007 by Constantin and Ramos for the vanishing of long-time averages of enstrophy dissipation rate in the vanishing viscosity limit. Enstrophy is the integral of the square of the vorticity in space, thereby representing in a certain sense how rotational a fluid is globally. Note that above, the Euler and Navier-Stokes equations only differ by the viscous term $\nu\Delta u$. Viscosity generally leads to dissipation of enstrophy in time. However, what happens when one considers smaller and smaller viscosity $(\nu \to 0)$ ? Does the enstrophy dissipation rate also vanish? This is an important question in the Batchelor-Kraichnan theory for 2D turbulence. If there remains some kind of dissipation in the system, this is usually refereed to as anomalous (enstrophy)-dissipation.<br>
 Likewise to Constantin and Ramos, my article first considers long-time averages of the system to obtain a sort of stationary state and then considers the vanishing viscosity scenario, where indeed the viscous enstrophy dissipation rate vanishes as $\nu \to 0$. The preprint utilizes some nice ideas from ergodic and dynamical system theory as well as some recent results on the vanishing viscosity limit.</li>
 </ul>
 <div class="footnotes" role="doc-endnotes">
@@ -1014,11 +1015,11 @@ Likewise to Constantin and Ramos, my article first considers long-time averages 
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://raphael-wagner.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hueead46205df7a1e410342e864f7e1b3b_1078772_270x270_fill_q75_lanczos_center.jpg" alt=""></a>
+      <a href="https://raphael-wagner.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hueead46205df7a1e410342e864f7e1b3b_1078772_270x270_fill_q75_lanczos_center.jpg" alt=""></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://raphael-wagner.github.io/"></a></h5>
+      <h5 class="card-title"><a href="https://raphael-wagner.netlify.app/"></a></h5>
       <h6 class="card-subtitle">Doctoral candidate</h6>
       <p class="card-text">My research interests are weak solution concepts in mathematical fluid mechanics. In particular statistical and measure-valued solutions.</p>
       <ul class="network-icon" aria-hidden="true">
@@ -1176,9 +1177,6 @@ Likewise to Constantin and Ramos, my article first considers long-time averages 
     
       
       
-      
-        
-        
       
       
       

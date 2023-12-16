@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maschinelles Lernen | Raphael Wagner</title>
+    <link>https://raphael-wagner.netlify.app/de/tag/maschinelles-lernen/</link>
+      <atom:link href="https://raphael-wagner.netlify.app/de/tag/maschinelles-lernen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Maschinelles Lernen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>de</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://raphael-wagner.netlify.app/media/icon_hu054d31ac38a623158e2d971b85a39826_2241_512x512_fill_lanczos_center_3.png</url>
+      <title>Maschinelles Lernen</title>
+      <link>https://raphael-wagner.netlify.app/de/tag/maschinelles-lernen/</link>
+    </image>
+    
+    <item>
+      <title>Maschinelles Lernen</title>
+      <link>https://raphael-wagner.netlify.app/de/academia/ml/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://raphael-wagner.netlify.app/de/academia/ml/</guid>
+      <description>&lt;p&gt;Ich bin das erste mal mit der Theorie maschinellen Lernens in einer Mastervorlesung über Pattern Recognition im Rahmen meines Informatik Nebensfachs gekommen.&lt;br&gt;
+Das Gebiet beschäftigt sich mit der Entwicklung von Prozessen und Algorithmen, welche Computer befähigen, Aufgaben durch Erfahrung zu erlernen, gesteuert durch ein Performance-Maß. Insbesondere ist die erlernte Durchführung der Aufgabe nicht hartkodiert. In der Tat is es für komplexe Modelle wie tiefe neuronale Netze schwierig, Gesetztmäßigkeiten nachzuvollziehen, nach welchen dieses handelt.&lt;/p&gt;
+&lt;p&gt;Mittlerweile haben meiner Einschätzung nach die meisten Akademiker gewisse Berührpunkte mit maschinellen Lernen gemacht aufgrund des breiten Anwendungsspektrums maschineller Lernalgorithmen und deren große Erfolge, z.B. bei der Erkennung Kreditkartenbetrugs in Kontoauszügen, oder der Erkennung von Tumoren in Gehirnscans.&lt;br&gt;
+Selbst in der numerischen Analysis partieller Differentialgleichungen etablieren sich allmählich Algorithmen maschinellen Lernens. Insbesondere in den Geowissenschaften, in welchen große Mengen an Daten aufgezeichnet werden, erfolgt die Simulation von Modellen nicht mehr nur auf Basis der numerischen Berechnung der involiverten Gleichungen der Physik, sondern wird in der Regel kombiniert mit datengetriebenen Ansätzen. Ich konnte darüber dankbarerweise zwei spannende Vorträge im Rahmen des Mathematischen Kolloquiums an der Universität Ulm von &lt;a href=&#34;https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Jakob_Runge.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Dr. Jakob Runge&lt;/a&gt; und &lt;a href=&#34;https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/Abstract_Kutyniok.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Dr. Gitta Kutyniok&lt;/a&gt; besuchen, welche Experten in diesem Gebiet sind.&lt;/p&gt;
+&lt;p&gt;Mittlerweile stehen eine Vielzahl an Büchern und anderen Ressourcen zur Verfügung, mit deren Hilfe und einem grundlegenden Verständnis von Statistik und Programmierung, man viele Methoden maschinellen Lernens erlernen kann. In jüngerer Zeit habe ich mich hier insbesondere mit &lt;a href=&#34;https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow&lt;/a&gt; von Aurélien Géron auseinandergesetzt, welches ich als sehr zugänglich empfinde.&lt;/p&gt;
+&lt;p&gt;Legt man die Faszination der Anwendungen für einen Moment auf die Seite, bleibt nach wie vor eine recht tiefe und interessante Theorie, welche vielen Methoden zugrundeliegt. Ein Beispiel, welchem ich kürzlich begegnet bin, ist das der Reproducing Kernel Hilbert Spaces (RKHS), welches ich gerne als Beispiel hier etwas illustrieren möchte.&lt;br&gt;
+Der nette Aspekt der Theorie ist, dass die Theorie der RKHS nicht nur erklärt, warum Methoden wie Ridge Regression funkionieren und sinnvoll sind, sie erklärt auch, warum Anwender die tiefe Theorie nicht einmal verstehen müssen, da sie rein im Hintergrund abläuft.&lt;/p&gt;
+&lt;p&gt;RKHS spielen eine Rolle für gewisse Regressions- und Klassifizierungsprobleme. Nehmen wir an, wir haben Input-Daten die in einer Menge $X$ enthalten sind. Dabei kann $X$ eine Menge von Textdateien sein, numerische Werte enthalten, Bilder etc. oder Kombinationen von diesen. Bei Klassifizierungsproblemen nehmen wir an, dass jedes Element in $X$ eine &lt;em&gt;wahre&lt;/em&gt; Klasse hat, z.B. wenn $X$ eine Menge von Katzen- und Hundebildern ist und jedes Bild einer der beiden Klasse angehört: Katze oder Hund.&lt;br&gt;
+Bei Regressionsproblemen wird angenommen, dass jedes Element in $X$ einen &lt;em&gt;wahren&lt;/em&gt; oder &lt;em&gt;akkuraten&lt;/em&gt; Werte hat, wie z.B. der Wert eines Hauses, wobei $X$ Daten von Häusern bzw. Immobilien in einer Region enhält.&lt;br&gt;
+Diese Klassen oder wahren Werte nennt man in der Regel label.&lt;/p&gt;
+&lt;p&gt;Angenommen wir haben Daten $x_1, &amp;hellip; , x_n \in X$ für $n \in \mathbb{N}$ deren labels $y_1, &amp;hellip; , y_n \in \mathbb{R}$ wir kennen. Dann nennen wir $(x_1,y_1),&amp;hellip;,(x_n,y_n)$ unsere Trainingsdaten.&lt;/p&gt;
+&lt;p&gt;Wir möchten dann relativ präzise den Preis eines jeden Hauses mit Daten mit den Eigenschaften $x \in X$ bestimmen. Wir beschreiben dies über eine Funktion $f\colon X \to \mathbb{R}$ und hoffen, dass durch Wahl einer Funktion $f$, welche die Trainingsdaten gut approximiert, wir mittels $f$ auch relativ präzise die label neuer, nicht in den Trainingsdaten enthaltener Input-Daten bestimmen können (das Overfitting-Problem spreche ich in einem Moment an).&lt;br&gt;
+Wir messen die Präzision in der Trainingsphase durch Wahl eines Performance-Maßes $V\colon X \times \mathbb{R} \to [0,\infty)$, wobei $V(f(x_i),y_i)$ klein sein sollte, wenn $f(x_i) \sim y_i$ und groß, wenn $f(x_i)$ und $y_i$ stark voneinander abweichen. Eine Standardbeispiel eines Performance-Maßes ist die quadratische Distanz
+$$ V(f(x_i),y_i) = |f(x_i) - y_i|^2.$$
+Betrachten wir das Mittel über den Trainingsdaten, bekommen erhalten wir eine sogenannte Verlustfunktion (engl. loss function) für unsere Regressionsfunktion $f\colon X \to \mathbb{R}$:
+$$ L(f) = \frac{1}{n}\sum_{i=1}^n V(f(x_i),y_i). $$&lt;/p&gt;
+&lt;p&gt;Es gibt viele Möglichkeiten in der präzisen Wahl eines Performance-Maßes und der Verlustfunktion. Eine wichtige Eigenschaft, welche diese üblicherweise gemeinsam haben, ist die der (strikten) Konvexität, welche unter weiteren Annahmen zumindest in der Theorie die mathematische Existenz eines eindeutigen Minimums und die Konvergenz von Approximationsverfahren gegen dieses Minimum garantiert.&lt;/p&gt;
+&lt;p&gt;In der Regel, durch eine vorläufige Untersuchung der zur Verfügung stehenden Trainingsdaten, hat man bereits a priori eine Vorstellung davon, wie einfach oder komplex der Zusammenhang zwischen den Daten $x \in X$ und den zugehörigen label $y \in \mathbb{R}$ ist. Darauf basierend kann man eine Vorabauswahl eines oder mehrerer allgemeiner Modelle treffen, z.B. lineare oder polynomielle Modelle, neuronal Netze usw. Daher, anstelle alle Funktionen $f\colon X \to \mathbb{R}$ als mögliche Regressionsfunktionen zu betrachten, schränken wir uns auf eine gewisse Teilmenge von Funktion $H \subset \lbrace f\colon X \to \mathbb{R} \rbrace$ ein.
+Das Regressionsproblem besteht dann darin,
+$$ f^* := \underset{f \in H}{\operatorname{argmin}} L(f) $$
+zu bestimmen.&lt;/p&gt;
+&lt;p&gt;Minimierungsprobleme in Hilberträumen sind tendenziell sehr elegant lösbar. Warum? Hilberträume sind gewisse Vektorräume mit einem Skalarprodukt. Ein solches Skalarprodukt $\langle\cdot,\cdot\rangle_H$ gibt uns einen Begriff von Orthogonalität, welcher eng verbunden ist mit dem Problem zur Minimierung von Abständen.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-die-kürzeste-strecke-zwischen-x-und-dem-liniensegment-l-is-durch-das-geradenstück-gegeben-welches-durch-x-und-l-verläuft-und-l-orthogonal-schneidet&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /de/academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp 400w,
+               /de/academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_dd1c8d2ca012c7e3e2ae0e0cd4b1a8aa.webp 760w,
+               /de/academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.netlify.app/de/academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp&#34;
+               width=&#34;487&#34;
+               height=&#34;347&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Die kürzeste Strecke zwischen $x$ und dem Liniensegment $L$ is durch das Geradenstück gegeben, welches durch $x$ und $L$ verläuft und $L$ orthogonal schneidet.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Daher hätten wir gerne eine Hilbertraumstruktur für unsere Menge von Funktionen $H$. Diese Sichtweise ist relativ abstrakt, da wir Funktionen in $H$ ähnlich zu Punkten in der Ebene $\mathbb{R}^2$ auffassen, wo wir einen &lt;em&gt;natürlichen&lt;/em&gt; Begriff von Orthogonalität haben. Dieser Ansatz ist aber fundamental in der &lt;a href=&#34;https://de.wikipedia.org/wiki/Funktionalanalysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Funktionalanalysis&lt;/a&gt;, welche im letzten Jahrhundert sich zu einer der mächtigsten Theorien in der mathematischen Analysis entwickelt hat.&lt;/p&gt;
+&lt;p&gt;Allerdings entsteht nun die Frage, wie wir ein sinnvolles Konzept von Orthogonalität zwischen Funktionen in $H$ erhalten können. Dies ist in keiner Weise offensichtlich. Allerdings vereinfacht die Theorie der RKHS diese Frage signifikant in Form des &lt;a href=&#34;https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space#Moore%E2%80%93Aronszajn_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Moore-Aronszajn Theorems&lt;/a&gt;:
+Angenommen wir haben einen Kern $K\colon X \times X \to \mathbb{R}$, mit den Eigenschaften:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Symmetrie: $K(z_1,z_2) = K(z_2,z_1)$ für alle $z_1,z_2 \in X$;&lt;/li&gt;
+&lt;li&gt;Positive Semidefinitheit: Für alle $z_1,&amp;hellip;z_k \in X$, $\lambda_1,&amp;hellip;,\lambda_k \in \mathbb{R}$ gilt
+$$ \sum_{i,j=1}^k \lambda_i\lambda_j K(z_i,z_j) \geq 0.$$
+Dann gibt es einen eindeutigen Hilbertraum $H \subset \lbrace f \colon X \to \mathbb{R}\rbrace$, der &lt;em&gt;Reproducing Kernel Hilbert Space&lt;/em&gt;, dessen reproduzierender Kern $K$ ist, das bedeutet, dass für alle $f \in H$ und $x \in X$,
+$$ f(x) = \langle K(x,\cdot), f \rangle_H.$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Daher erhält man bei Wahl eines Kerns mit diesen Eigenschaften automatisch (quasi im Hintergrund) einen bzw. den zugehörigen RKHS. Allerdings sollte erwähnt werden, dass noch die Wahl eines geeigneten Kerns getroffen werden muss.
+Im allgemeinen sind Symmetrie und positive (Semi-)Definitheit Eigenschaften, welche ein Kern mit denen eines Skalarprodukts $ \langle \cdot, \cdot \rangle$ gemeinsam. Für ein Skalarprodukt beschreibt $\langle z_1,z_2 \rangle$ gerade die Länge von $z_1$, projiziert auf die Gerade welche von $z_2$ aufgespannt wird (sofern $z_2$ Länge 1 hat). Je näher also $z_1$ und $z_2$ in dieselbe Richtung zeigen, desto größer wird der Wert des Skalarprodukt. Man stellt sich daher im Allgemeinen den Kern $K(z_1,z_2)$ als eine Art Ähnlichkeitsmaß zwischen zwei Werten $z_1,z_2 \in X$ vor.&lt;/p&gt;
+&lt;p&gt;Typische Beispiele, falls $X = \mathbb{R}^d$, sind z.B.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;der Gaussche Kern $K(z_1,z_2) = \exp\left( \frac{|z_1-z_2|^2}{\sigma^2} \right)$ für ein $\sigma^2 &amp;gt; 0$,&lt;/li&gt;
+&lt;li&gt;oder polynomielle Kerne $K(z_1,z_2) = (z_1\cdot z_2+ 1)^l$ für $l \in \mathbb{N}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Falls $X$ nicht aus numerischen Daten in $\mathbb{R}^n$ (oder eines anderen Hilbertraumes besteht), kann man zunächst $X$ durch eine &lt;em&gt;feature map&lt;/em&gt;  $\varphi\colon X \to Y$ transformieren. Ist $Y$ ein Hilbertraum mit Skalarprodukt $\langle \cdot, \cdot \rangle_Y$, dann ist ein Kern durch
+$$ K(x,y) = \langle \varphi(x),\varphi(y) \rangle_Y$$
+gegeben. Diese Methode zur Konstruktion von Kernen über feature maps wird häufig benutzt, um nicht-lineare Regression in einem Raum niedriger Dimension in ein lineares Regressionsproblem in einem höherdimensionalen umzuformulieren.&lt;/p&gt;
+&lt;p&gt;Wir diskutieren hier kurz diese Methode für Standardbeispiele quadratischer Regression. Angenommen unsere Daten $X \subset \mathbb{R}$ sind 1-dimensional und wir suchen nach einer quadratischen Regressionsfunktion
+$$f \colon X \to \mathbb{R}, x \mapsto a x^2 + bx. $$
+Mit Hilfe der der feature map $\varphi \colon \mathbb{R} \to \mathbb{R}^2, x \mapsto (x,x^2)$, verstecken wir das nicht-lineare Problem im Kern $K$, gegeben durch das Skalarprodukt auf $\mathbb{R}^2$ und der feature map $\varphi$, d.h.
+$$K(z_1,z_2) = \langle \varphi(z_1),\varphi(z_2)\rangle_{\mathbb{R}^2} = \langle (z_1,z_1^2),(z_2,z_2^2)\rangle_{\mathbb{R}^2} = z_1z_2 + z_1^2z_2^2.$$
+Der Ansatz über die feature map ist in sofern sinnvoll, da man sich überlegen kann, dass die quadratischen Funktionen auf $\mathbb{R}$ wie oben zu linearen Funktionen in $\mathbb{R}^2$ korrespondieren.&lt;br&gt;
+Solche Beispiele fallen in die Kategorie von Methoden, welche typischerweise als &lt;em&gt;kernel trick&lt;/em&gt; bezeichnet werden.&lt;br&gt;
+Nachfolgend findet sich ein Beispiel eine 1-dimensionalen Menge $X = G \cup B$ aufgeteilt in die beiden Klassen
+$$G = \lbrace -1, -2 \rbrace \text{ und } B = \lbrace -3, 1, 2\rbrace,$$
+welche nicht linear, aber quadratischen separierbar sind in dem Sinne, dass für
+$y = f(x) = x^2+2.5x$, zum einen $G = \lbrace x \in X : f(x) &amp;lt; 0\rbrace$ und zum anderen $B = \lbrace x \in X : f(x) \geq 0\rbrace$ gilt.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-klassifizierung-von-1-dimensionalen-werten-in-die-beiden-klassen-grün-and-blau&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /de/academia/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp 400w,
+               /de/academia/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_bdf7edae1f7a55bc03b0a131a225f0be.webp 760w,
+               /de/academia/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.netlify.app/de/academia/ml/1D_nonseparable_hu91562f7b31c0850cf1ff273429f56a24_11714_67c685a391a32e6bacfe73f23cfe9617.webp&#34;
+               width=&#34;545&#34;
+               height=&#34;201&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Klassifizierung von 1-dimensionalen Werten in die beiden Klassen &lt;em&gt;Grün&lt;/em&gt; and &lt;em&gt;Blau&lt;/em&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Die feature map transformiert die Daten in $X$ in Punkte in der Ebene.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-transformation-über-die-feature-map-varphi&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /de/academia/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp 400w,
+               /de/academia/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_78e6e402960b24510fa30fcce68c584a.webp 760w,
+               /de/academia/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.netlify.app/de/academia/ml/1D_nonseparable_2D_hu848ca1632001013b97e6e57dd07df9b3_17942_a78f25e2dee441fbce4cfa5ea1449262.webp&#34;
+               width=&#34;565&#34;
+               height=&#34;469&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Transformation über die feature map $\varphi$.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Dort sind die Daten linear separierbar, falls z.B.
+$$\tilde{G} = \lbrace (-1,1), (-2,4) \rbrace \text{ and } \tilde{B} = \lbrace (-3,9), (1,1), (2,4)\rbrace,$$
+und $\tilde{f}(x,y) = y+2.5x$, dann gilt $\tilde{G} = \lbrace (x,y) = \varphi(x) : x \in X \text{ and } \tilde{f}(x,y) &amp;lt; 0\rbrace$, while $\tilde{B} = \lbrace (x,y) = \varphi(x) : x \in X \text{ and } \tilde{f}(x,y) \geq 0\rbrace$.&lt;/p&gt;
+&lt;p&gt;Wir bemerken hier noch, dass wir $f$ sich auch als Linearkombination der Kernfunktionen $K(-3,\cdot), K(-2,\cdot), K(-1,\cdot), K(1,\cdot), K(2,\cdot)$, ausgewertet an den $x$-Werten der Trainingsdaten darstellen können:
+$$f(x) = \frac{7}{4} K(1,x) - \frac{3}{4}K(-1,x).$$
+Das ist kein bloßer Zufall und wird gleich etwas algemeiner beschrieben.&lt;/p&gt;
+&lt;p&gt;An dieser Stelle möchte ich auch noch einmal betonen, dass der Satz von Moore-Aronszajn auf keinen Fall trivial ist und ein Verständnis seines Beweises eine solide Basis in Funkionalanalysis erfordert.&lt;/p&gt;
+&lt;p&gt;Zurück zu unserem Regressionsproblem und dem RKHS $H$. Ein allgemein großes Problem besteht im Overfitting der Trainingsdaten, was passieren kann, wenn wir ein Modell aufstellen wollen, das sehr komplex ist relativ zu den eigentlichen Daten, welches dann zu sensitiv auf Rauschen reagiert.&lt;br&gt;
+In unserer Situation eines RKHS kann dies durch &lt;em&gt;Tikhonov Regularisierung&lt;/em&gt; unterdrückt werden. Das bedeutet, wir fügen unserer Verlustfunktionen einen Regularisierungsterm hinzu, sodass
+$$ L(f) = \frac{1}{n}\sum_{i=1}^n V(f(x_i),y_i) + c |f|_H^2,$$
+wobei $c &amp;gt; 0$ ein Regularisierungsparameter und $|f|_H = \sqrt{\langle f,f\rangle_H}$ die Norm von $f$ ist, welche durch das Skalarprodukt auf $H$ gegeben ist. Das ist in der Tat eine Regularisierung in dem Sinne, dass jedes $f \in H$ Lipschitz-stetig mit Lipschitz-Konstanten $|f|_H$ ist:
+\begin{align*}
+|f(z_1) - f(z_2)| = |\langle f,K(z_1,z_2)-K(z_1,z_2)\rangle| \leq  |f|_H d(z_1,z_2),
+\end{align*}
+wobei $d(z_1,z_2) := |K(z_1,\cdot)-K(z_2,\cdot)|_H$ als Distanz zwischen $z_1$ und $z_2$ aufgefasst werden kann. Diese Lipschitzstetigkeit bedeutet, dass die Steigung von $f$ beschränkt ist durch $|f|_H$. Daher, durch Hinzufügen dieses Terms zu unserer Verlustfunktion, welche wir minimieren wollen, wir der Overfitting-Problem entgegen wirken. Die folgende Skizze illustriert dies. Die Beziehung zwischen einem Input $x$ und dem label $y$ wirkt linear (evtl. mit leichter Krümmung). Allerdings trifft die orangene Kurve die Datenpunkte perfekt, während die Verlustfunktion für die lineare Kurve in grün positiv wäre.&lt;br&gt;
+Dabei ist allerdings zu beachten, dass die orangene Kurve eine recht große Steigung an gewissen Stellen aufweist, um alle Punkte perfekt zu treffen. Durch Hinzufügen des Regularisierungsterms zur Verlustfunktion, wird diese aber auch wie gewünscht groß für die orangene Kurve, wodurch das lineare Modell eventuell mehr evorzugt wird.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overfitting-der-trainingsdaten&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /de/academia/ml/overfitting_hu980db8537e87a0a5158811606edfe1ce_25917_8af8154c84a1d4eab27cf9382d93654e.webp 400w,
+               /de/academia/ml/overfitting_hu980db8537e87a0a5158811606edfe1ce_25917_c0820a743c6aad0e69a7e504e80b2ae5.webp 760w,
+               /de/academia/ml/overfitting_hu980db8537e87a0a5158811606edfe1ce_25917_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.netlify.app/de/academia/ml/overfitting_hu980db8537e87a0a5158811606edfe1ce_25917_8af8154c84a1d4eab27cf9382d93654e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;394&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Overfitting der Trainingsdaten
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Im allgemeinen kann es sehr schwierig bis hin zu unmöglich sein, den RKHS zu einem Kern $K$ zu bestimmen. Daher, selbst wenn sich das Minimierungsproblem in dem RKHS $H$ elegant lösen lässt , die Frage berechtigt, was der praktische Nutzen davon ist, wenn $H$ nicht explizit bekannt ist. Hier hilft erneu die abstrakte Theorie der RKHS, welche mittels des &lt;a href=&#34;https://en.wikipedia.org/wiki/Representer_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Representer Theorems&lt;/a&gt; folgendes aussagt:&lt;/p&gt;
+&lt;p&gt;In der gegebenen Situation mit Trainingsdaten $(x_i,y_i), i = 1,&amp;hellip;,n$ ist die optimale Lösung (sofern sie existiert), gegeben durch
+$$ f^*(x) = \sum_{i=1}^n \lambda_i K(x_i,x) $$
+für gewisse Koeffizienten $\lambda_1,&amp;hellip;,\lambda_n \in \mathbb{R}^n$.&lt;/p&gt;
+&lt;p&gt;Dadurch müssen wir nach dem Minimierer also nur in der Menge der Linearkombination der Funktionen $x \mapsto K(x_1,x),&amp;hellip;,K(x_n,x)$ suchen, was essentiell lediglich lineare Regression in $\mathbb{R}^n$ ist.&lt;/p&gt;
+&lt;p&gt;Um dies Zusammenzufassen werfen wir einen Blick auf die nachfolgende Abbildung. Das untenstehende Diagramm kommutiert, das bedeutet, dass wir um einen Minimierer des Regressionsproblems zu finden, anstelle des Weges über die abstrakte Theorie direkt lineare Regression in  $\mathbb{R}^n$ durchführen können um optimale Koeffizienten $\lambda_1, &amp;hellip; ,\lambda_n \in \mathbb{R}$ bezüglich der Verlustfunktion für die Funktion $f^*(x) = \sum_{i=1}^n \lambda_i K(x_i,x)$ zu bestimmen. Man nennt dieses Verfahren oft Ridge Regression.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-suche-nach-optimalen-regressionsfunktionen-mittels-rkhs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /de/academia/ml/diagram_RKHS_hu98e4f96f463abae02a7b45daec58fb7a_62945_838e7e14f963fbe49e6f88532f02678d.webp 400w,
+               /de/academia/ml/diagram_RKHS_hu98e4f96f463abae02a7b45daec58fb7a_62945_3da1440d2f29948fd8eafcaf148f1989.webp 760w,
+               /de/academia/ml/diagram_RKHS_hu98e4f96f463abae02a7b45daec58fb7a_62945_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.netlify.app/de/academia/ml/diagram_RKHS_hu98e4f96f463abae02a7b45daec58fb7a_62945_838e7e14f963fbe49e6f88532f02678d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;287&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Suche nach optimalen Regressionsfunktionen mittels RKHS
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Im folgenden habe ich ein kleines Beispiel für Ridge Regression angefügt in der Form eines Jupyter Notebook, welches illustriert, dass sich die Methode eignen kann, um nicht-lineare Zusammenhänge zu erkennen ohne zu sensitiv auf Rauschen zu reagieren. Dafür habe ich die bereits implementierten Methoden in scikit-learn verwendet.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.kernel_ridge&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;KernelRidge&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.model_selection&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GridSearchCV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;seed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;num_samples&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# generate the independent variable (x) as a random sample from a uniform distribution&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;uniform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;low&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;high&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;num_samples&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# generate the dependent variable (y) as sin(x) with some gaussian noise&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;noise&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;normal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scale&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;num_samples&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ravel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;noise&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reshape&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reshape&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# plot sample data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scatter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;X&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;y&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Nonlinear sample data&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;   
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /de/academia/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_35af086aceddd76e13bb89981be66b2f.webp 400w,
+               /de/academia/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_50a1299c6152702312cacbb8d9a93427.webp 760w,
+               /de/academia/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.netlify.app/de/academia/ml/ridge_reg_files/ridge_reg_0_0_hu925f354b133acfb4fa25a5003f8c7aa5_18051_35af086aceddd76e13bb89981be66b2f.webp&#34;
+               width=&#34;579&#34;
+               height=&#34;453&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Fit a ridge regression model with gaussian kernel&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Use grid-search cross-validation to find good parameter combinations alpha (regularization) and gamma = 1/sigma&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;kr_cv&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GridSearchCV&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;KernelRidge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;kernel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;rbf&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;gamma&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;param_grid&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;alpha&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1e0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1e-2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1e-3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;gamma&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;kr_cv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X_plot&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[:,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scatter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;k&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;training data&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kr_cv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;predict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;r&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;y = predicted_labels(x)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ravel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;b&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;y = sin(x) (&amp;#39;&amp;#39;true&amp;#39;&amp;#39; labels)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;X&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;y&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Kernel ridge regression&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.legend.Legend at 0x238f07d75e0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /de/academia/ml/ridge_reg_files/ridge_reg_1_1_hub1a234681851d62ec836f4207e7cd568_39849_1344193a9fd31e6e1eab98c22c93a026.webp 400w,
+               /de/academia/ml/ridge_reg_files/ridge_reg_1_1_hub1a234681851d62ec836f4207e7cd568_39849_4940ed2e2987ae24062590225aecb396.webp 760w,
+               /de/academia/ml/ridge_reg_files/ridge_reg_1_1_hub1a234681851d62ec836f4207e7cd568_39849_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://raphael-wagner.netlify.app/de/academia/ml/ridge_reg_files/ridge_reg_1_1_hub1a234681851d62ec836f4207e7cd568_39849_1344193a9fd31e6e1eab98c22c93a026.webp&#34;
+               width=&#34;579&#34;
+               height=&#34;453&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Wie wir sehen, konnte unser Regressionsmodell in diesem Beispiel den nicht-linearen Zusammenhang zwischen $x$ und $y$ erkennen, ohne zu sehr durch die Störung bzw. das Rauschen beeinflusst zu werden.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
