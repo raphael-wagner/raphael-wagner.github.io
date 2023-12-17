@@ -16,7 +16,7 @@ main:
   # - name: Other interests
   #   url: '#other'
   #   weight: 40
-  - name: ECAs
+  - name: Personal interests
     url: '#personal'
     weight: 40
   # - name: Posts

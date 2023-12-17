@@ -131,7 +131,7 @@ sections:
   content:
     subtitle: ""
     text: '{{< gallery album="personal" >}}'
-    title: Extracurricular activities
+    title: Personal interests
   design:
     columns: "1"
   id: personal
