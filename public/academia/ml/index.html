@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: December 16, 2023 --><html lang="en-us" >
+<!-- Last Published: December 17, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -836,7 +836,7 @@ Even in the numerical analysis of partial differential equations, machine learni
 <p>Nowadays, there is a ton of books and other resources available to teach machine learning methods to everyone with a very basic understanding of statistics and programming. Recently, I have been going through <a href="https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/" target="_blank" rel="noopener">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</a> by Aurélien Géron, which I found to be very accessible.</p>
 <p>But even casting aside all the applications, many methods have a rather deep and interesting underlying mathematical foundation. The example that I recently came across is that of reproducing kernel Hilbert spaces (RKHS), which I thought I could shed some light on here. The nice part is that the theory of RKHS not only explains why methods such as ridge regression work and are reasonable, the theory also explains why the user does not need to understand its rather deep underlying theory to apply it, as it works in the background.</p>
 <p>RKHS play a role for certain regression and classification methods.
-Suppose we are given data which lies in some set $X$. Here, $X$ could be a set of text files, numerical data, images, etc. or combinations thereof. We suppose that each element in $X$ has a <em>true</em> class (classification), for instance when $X$ is the set of all dog or cat pictures and we have two classes, cats and dogs, or a <em>true</em> or <em>accurate</em> value, such as housing prizes, where $X$ could be the set of data of houses in an area. These classes or accurate values are usually called labels.</p>
+Suppose we are given data which lies in some set $X$. Here, $X$ could be a set of text files, numerical data, images, etc. or combinations thereof. We suppose that each element in $X$ has a <em>true</em> class (classification), for instance when $X$ is the set of all dog or cat pictures and we have two classes, cats and dogs, or a <em>true</em> or <em>accurate</em> value, such as housing prizes, where $X$ could be the set of data of houses in an area. These classes or accurate values are usually called <em>labels</em>.</p>
 <p>Suppose that we have input data $x_1, &hellip; , x_n \in X$ for $n \in \mathbb{N}$ properties and we know the associated labels $y_1,&hellip;,y_n \in \mathbb{R}$. Then $(x_1,y_1),&hellip;,(x_n,y_n)$ is our training data.</p>
 <p>We now wish to be able to be able to predict the label for any given input data $x \in X$. We express this by a function $f\colon X \to \mathbb{R}$, where we would hope that by choosing $f$ in a way that it is accurate on the training set, it will also be accurate on new data (the problem of overfitting will be a addressed in a moment).<br>
 We measure accuracy by choosing a performance measure $V\colon X \times \mathbb{R} \to [0,\infty)$, where $V(f(x_i),y_i)$ should be small if $f(x_i) \sim y_i$ and large if $f(x_i)$ and $y_i$ deviate largely. A standard example for a performance measure is the square distance
@@ -867,12 +867,12 @@ $$ f^* := \underset{f \in H}{\operatorname{argmin}} L(f). $$</p>
 <figure  id="figure-the-least-distance-between-x-and-the-line-segment-l-is-given-by-the-length-of-the-line-segment-through-x-and-l-which-is-perpendicular-to-l">
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="image" srcset="
-               /academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp 400w,
-               /academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_dd1c8d2ca012c7e3e2ae0e0cd4b1a8aa.webp 760w,
-               /academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-               src="/academia/ml/minimize_hu0f72dd4434aa2b2ee20cf4f9843ca179_11416_870f9016b05d392c3f1348a7cccb2e75.webp"
-               width="487"
-               height="347"
+               /academia/ml/minimize_hue0b34498eaad965cb86d71428b4e600a_5829_766a423792bf192803d280d0f32544ad.webp 400w,
+               /academia/ml/minimize_hue0b34498eaad965cb86d71428b4e600a_5829_51b2fdfa80e106be3642b3a2d306eb11.webp 760w,
+               /academia/ml/minimize_hue0b34498eaad965cb86d71428b4e600a_5829_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/academia/ml/minimize_hue0b34498eaad965cb86d71428b4e600a_5829_766a423792bf192803d280d0f32544ad.webp"
+               width="360"
+               height="237"
                loading="lazy" data-zoomable /></div>
   </div><figcaption>
       The least distance between $x$ and the line segment $L$ is given by the length of the line segment through $x$ and $L$ which is perpendicular to $L$.
@@ -1251,7 +1251,7 @@ This is usually called ridge regression</p>
       
     
     <li>
-      <a href="/themes/starter-hugo-academic/static/uploads/resume_wagner.pdf" >
+      <a href="/themes/starter-hugo-academic/static/uploads/CV_Wagner_%28general%29.pdf" >
         <i class="ai ai-cv"></i>
       </a>
     </li>

@@ -79,7 +79,7 @@ sections:
           * Mithilfe bei der Erstellung und Durchführung von Klausuren und mündlichen Prüfungen.
       location: Ulm, DE
       title: Akademischer Angestellter
-    - company: Kistler Chemnitz GmbH (formerly AMS GmbH)
+    - company: Kistler Chemnitz GmbH (ehemals AMS GmbH)
       company_logo: 
       company_url: "https://www.kistler.com/DE/en/c/kidaq-data-acquisition-system/CG21-kidaq-data-acquisition-system?utm_source=google-ads&utm_medium=cpc&utm_campaign=&utm_agid=153539725578&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBl-W9JaaeaA6yRJcEX-tRUHqsoFC7S7NyHpltCRZlRpHp1M0_tajxRoCMfIQAvD_BwE"
       date_end: "2018-01-31"

@@ -2,7 +2,7 @@
 bio: My research interests are weak solution concepts in mathematical fluid mechanics. In particular statistical and measure-valued solutions.
 education:
   courses:
-  - course: Doctoral candidate
+  - course: Doctoral candidate and scientific assistant
     institution: Ulm University, Institute of Applied Analysis (DE)
     year: 09/2020 - ongoing
   - course: M.Sc. Mathematics
@@ -71,7 +71,7 @@ social:
   link: https://www.linkedin.com/in/raphael-wagner-45a4212a0
 - icon: cv
   icon_pack: ai
-  link: themes/starter-hugo-academic/static/uploads/resume_wagner.pdf
+  link: uploads/CV_Wagner_(general).pdf
 # - display:
 #     header: true
 #   icon: twitter

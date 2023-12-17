@@ -3,7 +3,7 @@ bio: Meine Forschungsinteressen betreffen schwache Lösungskonzepte in der mathe
 education:
   courses:
   - course: Doktorand 
-    institution: Universität Ulm, Institut für angewandte Analysis (DE)
+    institution: Universität Ulm, Institut für Angewandte Analysis (DE)
     year: 09/2020 - aktuell
   - course: M.Sc. Mathematik
     institution: Universität Ulm (DE)
@@ -71,7 +71,7 @@ social:
   link: https://www.linkedin.com/in/raphael-wagner-45a4212a0
 - icon: cv
   icon_pack: ai
-  link: themes/starter-hugo-academic/static/uploads/resume_wagner.pdf
+  link: de/uploads/CV_Wagner_(allgemein).pdf
 # - display:
 #     header: true
 #   icon: twitter
@@ -89,15 +89,15 @@ status:
 superuser: true
 ---
 
-Ich bin Doktorand am Institut für Angewandte Analysis der Universität Ulm und schließe meine Promotionsvorhaben voraussichtlich im Frühjahr 2024 ab. Meine Forschung in der Arbeitsgruppe von Prof. Dr. Emil Wiedemann fokusiert sich auf statistische Lösungenkonzepte in der mathematischen Strömungsmechanik, motiviert durch statistische Beschreibung von Turbulenz.
+Ich bin Doktorand am Institut für Angewandte Analysis der Universität Ulm und schließe mein Promotionsvorhaben voraussichtlich im Frühjahr 2024 ab. Meine Forschung in der Arbeitsgruppe von Prof. Dr. Emil Wiedemann fokusiert sich auf statistische Lösungenkonzepte in der mathematischen Strömungsmechanik. Motiviert wird dies unter anderem durch Experimente und Aufzeichnungen turbulenter Strömungen, welche nahelegen, dass Turbulenz eine probabilistische Komponente hat.
 
 <!--
 Outside of my research, I am generally interested in mathematical modelling for questions ranging from the [development of stripes in a tiger's fur](https://royalsocietypublishing.org/doi/10.1098/rstb.1952.0012) to the [description of traffic flows.](https://royalsocietypublishing.org/doi/10.1098/rspa.1955.0089)  
 -->
 
-Neben einem allgemeinen Interesse an mathematischer Modellierung interessiere ich mich weiterhin für maschinelles Lernen. Letzteres Gebiet ist nicht nur aufgrund seiner breiten Anwendungsgebiete faszinierend, sondern auch durch die zugrundeliegende Theorie, welche verschiedene spannende mathematische Disziplinen vereint.
+Neben einem allgemeinen Interesse an mathematischer Modellierung, interessiere ich mich weiterhin für maschinelles Lernen. Letzteres Gebiet ist nicht nur aufgrund seiner breiten Anwendungsbereiche faszinierend, sondern auch durch die zugrundeliegende Theorie, welche verschiedene spannende mathematische Disziplinen vereint.
 
 
-### News:
+### Aktuelles:
 - Ich habe meine Dissertation am 10. Oktober 2023 eingereicht. Die Verteidigung findet voraussichtlich im Januar 2024 statt.
 
