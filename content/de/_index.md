@@ -86,7 +86,8 @@ sections:
       date_start: "2017-07-01"
       description: |2-
           * Die AMS GmbH war spezialisiert auf die Entwicklung von Softwarelösungen zur Auswertung und Verwaltung von Messdaten. Die Firma wurde im Dezember 2018 von der Kistler Group übernommen, einem globalen Führer im Bereich dynamischer Messsysteme. 
-          * Ich habe eine Komponente für einen Kunden innerhalb des Frameworks jBeam der AMS GmbH entwickelt, welches optimale Maschinenparameter berechnet hat auf Basis von eingegeben Testdaten.
+          * Ich habe Komponenten innerhalb des Frameworks jBEAM der AMS GmbH weiterentwickelt und für einen Kunden Skripte zur Modifikation von jBEAM-Komponenten geschrieben, die es ermöglichen, auf Basis von importierten Testdaten optimale Maschinenparameter zu bestimmen.
+
           
       location: Chemnitz, DE
       title: Praktikum als Java Softwareentwickler

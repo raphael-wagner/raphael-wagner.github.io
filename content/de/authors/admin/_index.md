@@ -11,7 +11,7 @@ education:
   - course: M.Sc. Mathematics
     institution: Syracuse University (US)
     year: 08/2018 - 05/2019
-  - course: B.Sc. in Wirtschaftsmathematik
+  - course: B.Sc. Wirtschaftsmathematik
     institution: Universität Ulm (DE)
     year: 10/2014 - 10/2017
 first_name: Raphael
